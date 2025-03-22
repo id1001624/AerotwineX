@@ -1,6 +1,5 @@
 # Flightstats API
-API_id: cb5c8184
-API_Key: 82304b41352d18995b0e7440a977cc1b
+
 
 ## 提供查詢跟API限制
 Flight Status by Flight	 # added to total
@@ -38,16 +37,13 @@ https://www.seatguru.com/
 
 # Line Messaging API
 
-Channel ID: 2007071114
-Channel secret(Key): f03b0bd56ec63b71bc6656fe45169968
+
 
 - 如何建構機器人
 https://developers.line.biz/en/docs/messaging-api/building-bot/
 
 # openweathermap API 天氣 
 
-Name: Default
-Key: e4032e996b3af704f47d6bae67943dd8
 
 https://openweathermap.org/appid
 
@@ -75,4 +71,3 @@ https://developers.skyscanner.net/docs/flights-live-prices/refresh-prices
 # Celery 定時爬取跟API調用，會花費大量API暫不考慮
 
 # aviationstackAPI 
-access_key = ccde4f4232ff0fe39abf0da9422c1a99
