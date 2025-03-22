@@ -1,0 +1,302 @@
+[
+  {
+    "flight_number": "DA7301",
+    "airline_id": "DAC",
+    "departure_airport_code": "TTT",
+    "arrival_airport_code": "GNI",
+    "scheduled_departure": "2025-03-22 07:30",
+    "scheduled_arrival": "2025-03-22 07:50",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:48"
+  },
+  {
+    "flight_number": "DA7303",
+    "airline_id": "DAC",
+    "departure_airport_code": "TTT",
+    "arrival_airport_code": "GNI",
+    "scheduled_departure": "2025-03-22 12:50",
+    "scheduled_arrival": "2025-03-22 13:10",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:48"
+  },
+  {
+    "flight_number": "DA7311",
+    "airline_id": "DAC",
+    "departure_airport_code": "TTT",
+    "arrival_airport_code": "GNI",
+    "scheduled_departure": "2025-03-22 16:15",
+    "scheduled_arrival": "2025-03-22 16:35",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:48"
+  },
+  {
+    "flight_number": "DA7302",
+    "airline_id": "DAC",
+    "departure_airport_code": "GNI",
+    "arrival_airport_code": "TTT",
+    "scheduled_departure": "2025-03-22 08:15",
+    "scheduled_arrival": "2025-03-22 08:35",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:54"
+  },
+  {
+    "flight_number": "DA7304",
+    "airline_id": "DAC",
+    "departure_airport_code": "GNI",
+    "arrival_airport_code": "TTT",
+    "scheduled_departure": "2025-03-22 13:35",
+    "scheduled_arrival": "2025-03-22 13:55",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:54"
+  },
+  {
+    "flight_number": "DA7312",
+    "airline_id": "DAC",
+    "departure_airport_code": "GNI",
+    "arrival_airport_code": "TTT",
+    "scheduled_departure": "2025-03-22 17:00",
+    "scheduled_arrival": "2025-03-22 17:20",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:54"
+  },
+  {
+    "flight_number": "DA7501",
+    "airline_id": "DAC",
+    "departure_airport_code": "TTT",
+    "arrival_airport_code": "KYD",
+    "scheduled_departure": "2025-03-22 07:50",
+    "scheduled_arrival": "2025-03-22 08:20",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:59"
+  },
+  {
+    "flight_number": "DA7503",
+    "airline_id": "DAC",
+    "departure_airport_code": "TTT",
+    "arrival_airport_code": "KYD",
+    "scheduled_departure": "2025-03-22 09:00",
+    "scheduled_arrival": "2025-03-22 09:30",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:59"
+  },
+  {
+    "flight_number": "DA7505",
+    "airline_id": "DAC",
+    "departure_airport_code": "TTT",
+    "arrival_airport_code": "KYD",
+    "scheduled_departure": "2025-03-22 09:50",
+    "scheduled_arrival": "2025-03-22 10:20",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:59"
+  },
+  {
+    "flight_number": "DA7515",
+    "airline_id": "DAC",
+    "departure_airport_code": "TTT",
+    "arrival_airport_code": "KYD",
+    "scheduled_departure": "2025-03-22 10:55",
+    "scheduled_arrival": "2025-03-22 11:25",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:59"
+  },
+  {
+    "flight_number": "DA7507",
+    "airline_id": "DAC",
+    "departure_airport_code": "TTT",
+    "arrival_airport_code": "KYD",
+    "scheduled_departure": "2025-03-22 11:50",
+    "scheduled_arrival": "2025-03-22 12:20",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:59"
+  },
+  {
+    "flight_number": "DA7517",
+    "airline_id": "DAC",
+    "departure_airport_code": "TTT",
+    "arrival_airport_code": "KYD",
+    "scheduled_departure": "2025-03-22 13:50",
+    "scheduled_arrival": "2025-03-22 14:20",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:59"
+  },
+  {
+    "flight_number": "DA7509",
+    "airline_id": "DAC",
+    "departure_airport_code": "TTT",
+    "arrival_airport_code": "KYD",
+    "scheduled_departure": "2025-03-22 14:25",
+    "scheduled_arrival": "2025-03-22 14:55",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:59"
+  },
+  {
+    "flight_number": "DA7511",
+    "airline_id": "DAC",
+    "departure_airport_code": "TTT",
+    "arrival_airport_code": "KYD",
+    "scheduled_departure": "2025-03-22 15:50",
+    "scheduled_arrival": "2025-03-22 16:20",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:42:59"
+  },
+  {
+    "flight_number": "DA7502",
+    "airline_id": "DAC",
+    "departure_airport_code": "KYD",
+    "arrival_airport_code": "TTT",
+    "scheduled_departure": "2025-03-22 08:50",
+    "scheduled_arrival": "2025-03-22 09:20",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:04"
+  },
+  {
+    "flight_number": "DA7504",
+    "airline_id": "DAC",
+    "departure_airport_code": "KYD",
+    "arrival_airport_code": "TTT",
+    "scheduled_departure": "2025-03-22 09:55",
+    "scheduled_arrival": "2025-03-22 10:25",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:04"
+  },
+  {
+    "flight_number": "DA7506",
+    "airline_id": "DAC",
+    "departure_airport_code": "KYD",
+    "arrival_airport_code": "TTT",
+    "scheduled_departure": "2025-03-22 10:50",
+    "scheduled_arrival": "2025-03-22 11:20",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:04"
+  },
+  {
+    "flight_number": "DA7516",
+    "airline_id": "DAC",
+    "departure_airport_code": "KYD",
+    "arrival_airport_code": "TTT",
+    "scheduled_departure": "2025-03-22 11:50",
+    "scheduled_arrival": "2025-03-22 12:20",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:04"
+  },
+  {
+    "flight_number": "DA7508",
+    "airline_id": "DAC",
+    "departure_airport_code": "KYD",
+    "arrival_airport_code": "TTT",
+    "scheduled_departure": "2025-03-22 12:50",
+    "scheduled_arrival": "2025-03-22 13:20",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:04"
+  },
+  {
+    "flight_number": "DA7518",
+    "airline_id": "DAC",
+    "departure_airport_code": "KYD",
+    "arrival_airport_code": "TTT",
+    "scheduled_departure": "2025-03-22 14:50",
+    "scheduled_arrival": "2025-03-22 15:20",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:04"
+  },
+  {
+    "flight_number": "DA7510",
+    "airline_id": "DAC",
+    "departure_airport_code": "KYD",
+    "arrival_airport_code": "TTT",
+    "scheduled_departure": "2025-03-22 15:20",
+    "scheduled_arrival": "2025-03-22 15:50",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:04"
+  },
+  {
+    "flight_number": "DA7512",
+    "airline_id": "DAC",
+    "departure_airport_code": "KYD",
+    "arrival_airport_code": "TTT",
+    "scheduled_departure": "2025-03-22 16:45",
+    "scheduled_arrival": "2025-03-22 17:15",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:04"
+  },
+  {
+    "flight_number": "DA7001",
+    "airline_id": "DAC",
+    "departure_airport_code": "KHH",
+    "arrival_airport_code": "CMJ",
+    "scheduled_departure": "2025-03-22 08:00",
+    "scheduled_arrival": "2025-03-22 08:40",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:11"
+  },
+  {
+    "flight_number": "DA7009",
+    "airline_id": "DAC",
+    "departure_airport_code": "KHH",
+    "arrival_airport_code": "CMJ",
+    "scheduled_departure": "2025-03-22 10:30",
+    "scheduled_arrival": "2025-03-22 11:10",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:11"
+  },
+  {
+    "flight_number": "DA7011",
+    "airline_id": "DAC",
+    "departure_airport_code": "KHH",
+    "arrival_airport_code": "CMJ",
+    "scheduled_departure": "2025-03-22 13:10",
+    "scheduled_arrival": "2025-03-22 13:50",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:11"
+  },
+  {
+    "flight_number": "DA7002",
+    "airline_id": "DAC",
+    "departure_airport_code": "CMJ",
+    "arrival_airport_code": "KHH",
+    "scheduled_departure": "2025-03-22 09:10",
+    "scheduled_arrival": "2025-03-22 09:50",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:17"
+  },
+  {
+    "flight_number": "DA7010",
+    "airline_id": "DAC",
+    "departure_airport_code": "CMJ",
+    "arrival_airport_code": "KHH",
+    "scheduled_departure": "2025-03-22 11:40",
+    "scheduled_arrival": "2025-03-22 12:20",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:17"
+  },
+  {
+    "flight_number": "DA7012",
+    "airline_id": "DAC",
+    "departure_airport_code": "CMJ",
+    "arrival_airport_code": "KHH",
+    "scheduled_departure": "2025-03-22 16:15",
+    "scheduled_arrival": "2025-03-22 16:55",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:17"
+  },
+  {
+    "flight_number": "DA7017",
+    "airline_id": "DAC",
+    "departure_airport_code": "MZG",
+    "arrival_airport_code": "CMJ",
+    "scheduled_departure": "2025-03-22 15:20",
+    "scheduled_arrival": "2025-03-22 15:40",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:24"
+  },
+  {
+    "flight_number": "DA7016",
+    "airline_id": "DAC",
+    "departure_airport_code": "CMJ",
+    "arrival_airport_code": "MZG",
+    "scheduled_departure": "2025-03-22 14:25",
+    "scheduled_arrival": "2025-03-22 14:45",
+    "aircraft_type": "Do-228",
+    "scrape_date": "2025-03-22 00:43:30"
+  }
+]

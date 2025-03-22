@@ -1,0 +1,21 @@
+2025-03-21 15:30:11,866 - SetupAirports - INFO - 正在连接数据库...
+2025-03-21 15:30:11,920 - SetupAirports - INFO - 数据库连接成功！
+2025-03-21 15:30:11,920 - SetupAirports - INFO - 德安航空使用的机场代码: CMJ, GNI, HUN, KHH, KNH, KYD, LZN, MFK, MZG, RMQ, TPE, TSA, TTT, WOT
+2025-03-21 15:30:11,925 - SetupAirports - INFO - 数据库中已有 184 个机场记录
+2025-03-21 15:30:11,925 - SetupAirports - WARNING - 以下 1 个机场代码在数据库中不存在: HUN
+2025-03-21 15:30:11,949 - SetupAirports - INFO - Airports表的列名: ['airport_id', 'airport_name_zh', 'airport_name_en', 'city_zh', 'city_en', 'country', 'timezone', 'contact_info', 'url', 'created_at', 'updated_at']
+2025-03-21 15:30:11,950 - SetupAirports - INFO - 开始导入缺失的机场数据
+2025-03-21 15:30:11,965 - SetupAirports - INFO - 已导入机场 HUN - 花蓮機場
+2025-03-21 15:30:11,966 - SetupAirports - INFO - 机场数据导入完成
+2025-03-21 15:30:11,968 - SetupAirports - INFO - 所有德安航空使用的机场代码现已存在于数据库中
+2025-03-21 15:30:11,970 - SetupAirports - INFO - 正在连接数据库...
+2025-03-21 15:30:11,971 - SetupAirports - INFO - 数据库连接成功！
+2025-03-21 15:30:11,975 - SetupAirports - INFO - 德安航空(DA)已存在于数据库中
+2025-03-22 02:23:08,849 - SetupAirports - INFO - 正在连接数据库...
+2025-03-22 02:23:09,018 - SetupAirports - INFO - 数据库连接成功！
+2025-03-22 02:23:09,018 - SetupAirports - INFO - 德安航空使用的机场代码: CMJ, GNI, HUN, KHH, KNH, KYD, LZN, MFK, MZG, RMQ, TPE, TSA, TTT, WOT
+2025-03-22 02:23:09,039 - SetupAirports - INFO - 数据库中已有 185 个机场记录
+2025-03-22 02:23:09,040 - SetupAirports - INFO - 所有德安航空使用的机场代码已存在于数据库中
+2025-03-22 02:23:09,042 - SetupAirports - INFO - 正在连接数据库...
+2025-03-22 02:23:09,043 - SetupAirports - INFO - 数据库连接成功！
+2025-03-22 02:23:09,052 - SetupAirports - INFO - 德安航空(DA)已存在于数据库中

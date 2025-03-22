@@ -1,0 +1,18 @@
+{
+  "date": "2025-03-22",
+  "total_flights": 8,
+  "scrapers": {
+    "DailyAirSimpleScraper": {
+      "total": 8,
+      "sources": {
+        "hardcoded": 8
+      }
+    },
+    "DailyAirAPIScraper": {
+      "total": 8,
+      "sources": {
+        "hardcoded": 8
+      }
+    }
+  }
+}

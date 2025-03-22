@@ -1,0 +1,2071 @@
+2025-03-22 00:04:25,088 - test_aviation_stack - INFO - 開始 AviationStack API 和資料導入測試
+2025-03-22 00:04:25,091 - test_aviation_stack - INFO - 測試 AviationStack API 連接...
+2025-03-22 00:04:25,901 - aviation_stack_api - ERROR - API請求失敗: 401 Client Error: Unauthorized for url: http://api.aviationstack.com/v1/airlines?limit=1
+2025-03-22 00:04:25,901 - aviation_stack_api - ERROR - API連接測試失敗: object of type 'NoneType' has no len()
+2025-03-22 00:04:25,902 - test_aviation_stack - INFO - API 連接測試結果: 失敗
+2025-03-22 00:04:25,902 - test_aviation_stack - ERROR - API連接失敗，無法繼續測試
+2025-03-22 00:04:25,902 - test_aviation_stack - ERROR - API測試失敗，跳過資料導入測試
+2025-03-22 00:04:25,902 - test_aviation_stack - INFO - 測試完成
+2025-03-22 00:05:05,563 - test_aviation_stack - INFO - 開始 AviationStack API 和資料導入測試
+2025-03-22 00:05:05,564 - test_aviation_stack - INFO - 測試 AviationStack API 連接...
+2025-03-22 00:05:07,020 - aviation_stack_api - ERROR - API請求失敗: 401 Client Error: Unauthorized for url: https://api.aviationstack.com/v1/airlines?limit=1
+2025-03-22 00:05:07,028 - aviation_stack_api - ERROR - API連接測試失敗: object of type 'NoneType' has no len()
+2025-03-22 00:05:07,030 - test_aviation_stack - INFO - API 連接測試結果: 失敗
+2025-03-22 00:05:07,030 - test_aviation_stack - ERROR - API連接失敗，無法繼續測試
+2025-03-22 00:05:07,031 - test_aviation_stack - ERROR - API測試失敗，跳過資料導入測試
+2025-03-22 00:05:07,031 - test_aviation_stack - INFO - 測試完成
+2025-03-22 00:05:45,717 - test_aviation_stack - INFO - 開始 AviationStack API 和資料導入測試
+2025-03-22 00:05:45,718 - test_aviation_stack - INFO - 測試 AviationStack API 連接...
+2025-03-22 00:05:46,228 - aviation_stack_api - ERROR - API請求失敗: 401 Client Error: Unauthorized for url: http://api.aviationstack.com/v1/airlines?limit=1
+2025-03-22 00:05:46,233 - aviation_stack_api - ERROR - API連接測試失敗: object of type 'NoneType' has no len()
+2025-03-22 00:05:46,234 - test_aviation_stack - INFO - API 連接測試結果: 失敗
+2025-03-22 00:05:46,235 - test_aviation_stack - ERROR - API連接失敗，無法繼續測試
+2025-03-22 00:05:46,237 - test_aviation_stack - ERROR - API測試失敗，跳過資料導入測試
+2025-03-22 00:05:46,241 - test_aviation_stack - INFO - 測試完成
+2025-03-22 00:06:05,807 - test_aviation_stack - INFO - 開始 AviationStack API 和資料導入測試
+2025-03-22 00:06:05,808 - test_aviation_stack - INFO - 測試 AviationStack API 連接...
+2025-03-22 00:06:05,809 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/airlines 參數: {'limit': 1, 'access_key': None}
+2025-03-22 00:06:06,384 - aviation_stack_api - ERROR - API請求失敗: 401 Unauthorized
+2025-03-22 00:06:06,384 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "missing_access_key",
+    "message": "You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"
+  }
+}
+
+2025-03-22 00:06:06,388 - aviation_stack_api - ERROR - API連接測試失敗: object of type 'NoneType' has no len()
+2025-03-22 00:06:06,389 - test_aviation_stack - INFO - API 連接測試結果: 失敗
+2025-03-22 00:06:06,390 - test_aviation_stack - ERROR - API連接失敗，無法繼續測試
+2025-03-22 00:06:06,390 - test_aviation_stack - ERROR - API測試失敗，跳過資料導入測試
+2025-03-22 00:06:06,391 - test_aviation_stack - INFO - 測試完成
+2025-03-22 00:06:25,918 - test_aviation_stack - INFO - 開始 AviationStack API 和資料導入測試
+2025-03-22 00:06:25,918 - test_aviation_stack - INFO - 測試 AviationStack API 連接...
+2025-03-22 00:06:25,919 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/airlines 參數: {'limit': 1, 'access_key': None}
+2025-03-22 00:06:26,489 - aviation_stack_api - ERROR - API請求失敗: 401 Unauthorized
+2025-03-22 00:06:26,490 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "missing_access_key",
+    "message": "You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"
+  }
+}
+
+2025-03-22 00:06:26,492 - aviation_stack_api - ERROR - API連接測試失敗: object of type 'NoneType' has no len()
+2025-03-22 00:06:26,500 - test_aviation_stack - INFO - API 連接測試結果: 失敗
+2025-03-22 00:06:26,504 - test_aviation_stack - ERROR - API連接失敗，無法繼續測試
+2025-03-22 00:06:26,505 - test_aviation_stack - ERROR - API測試失敗，跳過資料導入測試
+2025-03-22 00:06:26,506 - test_aviation_stack - INFO - 測試完成
+2025-03-22 00:06:52,663 - test_aviation_stack - INFO - 開始 AviationStack API 和資料導入測試
+2025-03-22 00:06:52,664 - test_aviation_stack - INFO - 測試 AviationStack API 連接...
+2025-03-22 00:06:52,665 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/airlines 參數: {'limit': 1, 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:06:53,234 - test_aviation_stack - INFO - API 連接測試結果: 成功
+2025-03-22 00:06:53,235 - test_aviation_stack - INFO - 
+測試獲取中華航空航班資訊:
+2025-03-22 00:06:53,236 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'airline_iata': 'CI', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:06:53,810 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:06:53,810 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:13,348 - test_aviation_stack - INFO - 開始 AviationStack API 和資料導入測試
+2025-03-22 00:07:13,349 - test_aviation_stack - INFO - 測試 AviationStack API 連接...
+2025-03-22 00:07:13,353 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/airlines 參數: {'limit': 1, 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:13,866 - test_aviation_stack - INFO - API 連接測試結果: 成功
+2025-03-22 00:07:13,870 - test_aviation_stack - INFO - 
+測試獲取航空公司資訊:
+2025-03-22 00:07:13,871 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/airlines 參數: {'airline_iata': 'CI', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:14,398 - test_aviation_stack - INFO - 基本API功能測試成功
+2025-03-22 00:07:14,398 - test_aviation_stack - INFO - 
+測試航班資料導入 (限制 10 筆):
+2025-03-22 00:07:14,399 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/airlines 參數: {'limit': 1, 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:14,946 - aviation_stack_importer - INFO - 開始獲取 2025-03-22 的航班數據
+2025-03-22 00:07:14,951 - aviation_stack_api - INFO - 查詢航空公司 CI 的航班...
+2025-03-22 00:07:14,953 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'airline_iata': 'CI', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:15,540 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:15,541 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:16,549 - aviation_stack_api - INFO - 查詢航空公司 BR 的航班...
+2025-03-22 00:07:16,555 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'airline_iata': 'BR', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:17,102 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:17,104 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:18,106 - aviation_stack_api - INFO - 查詢航空公司 AE 的航班...
+2025-03-22 00:07:18,106 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'airline_iata': 'AE', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:18,600 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:18,603 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:19,607 - aviation_stack_api - INFO - 查詢航空公司 B7 的航班...
+2025-03-22 00:07:19,611 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'airline_iata': 'B7', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:20,125 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:20,127 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:21,129 - aviation_stack_api - INFO - 查詢航空公司 JX 的航班...
+2025-03-22 00:07:21,129 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'airline_iata': 'JX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:21,689 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:21,691 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:22,692 - aviation_stack_api - INFO - 查詢航空公司 DA 的航班...
+2025-03-22 00:07:22,693 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'airline_iata': 'DA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:23,200 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:23,203 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:24,207 - aviation_stack_api - INFO - 查詢航空公司 JL 的航班...
+2025-03-22 00:07:24,208 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'airline_iata': 'JL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:24,730 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:24,731 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:25,733 - aviation_stack_api - INFO - 查詢航空公司 CX 的航班...
+2025-03-22 00:07:25,735 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'airline_iata': 'CX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:26,245 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:26,246 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:27,250 - aviation_stack_api - INFO - 查詢航空公司 OZ 的航班...
+2025-03-22 00:07:27,252 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'airline_iata': 'OZ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:27,776 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:27,777 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:28,778 - aviation_stack_api - INFO - 查詢航線 TPE-KHH 的航班...
+2025-03-22 00:07:28,779 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'KHH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:29,342 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:29,343 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:30,345 - aviation_stack_api - INFO - 查詢航線 TPE-RMQ 的航班...
+2025-03-22 00:07:30,345 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'RMQ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:30,884 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:30,885 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:31,889 - aviation_stack_api - INFO - 查詢航線 TPE-TTT 的航班...
+2025-03-22 00:07:31,901 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'TTT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:32,411 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:32,411 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:33,412 - aviation_stack_api - INFO - 查詢航線 TPE-HUN 的航班...
+2025-03-22 00:07:33,412 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'HUN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:33,920 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:33,921 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:34,922 - aviation_stack_api - INFO - 查詢航線 TPE-MZG 的航班...
+2025-03-22 00:07:34,923 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MZG', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:35,454 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:35,454 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:36,455 - aviation_stack_api - INFO - 查詢航線 TPE-TSA 的航班...
+2025-03-22 00:07:36,456 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'TSA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:36,964 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:36,965 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:37,967 - aviation_stack_api - INFO - 查詢航線 TPE-GNI 的航班...
+2025-03-22 00:07:37,967 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'GNI', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:38,503 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:38,504 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:39,505 - aviation_stack_api - INFO - 查詢航線 TPE-MFK 的航班...
+2025-03-22 00:07:39,505 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MFK', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:40,041 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:40,042 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:41,043 - aviation_stack_api - INFO - 查詢航線 TPE-LZN 的航班...
+2025-03-22 00:07:41,043 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'LZN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:41,611 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:41,611 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:42,613 - aviation_stack_api - INFO - 查詢航線 TPE-KYD 的航班...
+2025-03-22 00:07:42,614 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'KYD', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:43,111 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:43,112 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:44,113 - aviation_stack_api - INFO - 查詢航線 TPE-CMJ 的航班...
+2025-03-22 00:07:44,113 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CMJ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:44,626 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:44,626 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:45,627 - aviation_stack_api - INFO - 查詢航線 TPE-WOT 的航班...
+2025-03-22 00:07:45,628 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'WOT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:46,144 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:46,145 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:47,147 - aviation_stack_api - INFO - 查詢航線 TPE-TNN 的航班...
+2025-03-22 00:07:47,148 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'TNN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:47,648 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:47,649 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:48,651 - aviation_stack_api - INFO - 查詢航線 TPE-HND 的航班...
+2025-03-22 00:07:48,651 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'HND', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:49,155 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:49,156 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:50,157 - aviation_stack_api - INFO - 查詢航線 TPE-NRT 的航班...
+2025-03-22 00:07:50,158 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'NRT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:50,714 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:50,715 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:51,716 - aviation_stack_api - INFO - 查詢航線 TPE-KIX 的航班...
+2025-03-22 00:07:51,717 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'KIX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:52,192 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:52,193 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:53,193 - aviation_stack_api - INFO - 查詢航線 TPE-FUK 的航班...
+2025-03-22 00:07:53,194 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'FUK', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:53,767 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:53,767 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:54,768 - aviation_stack_api - INFO - 查詢航線 TPE-CTS 的航班...
+2025-03-22 00:07:54,768 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CTS', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:55,277 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:55,278 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:56,281 - aviation_stack_api - INFO - 查詢航線 TPE-NGO 的航班...
+2025-03-22 00:07:56,283 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'NGO', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:56,815 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:56,816 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:57,818 - aviation_stack_api - INFO - 查詢航線 TPE-OKA 的航班...
+2025-03-22 00:07:57,819 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'OKA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:58,325 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:58,326 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:07:59,327 - aviation_stack_api - INFO - 查詢航線 TPE-HIJ 的航班...
+2025-03-22 00:07:59,328 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'HIJ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:07:59,864 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:07:59,864 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:00,866 - aviation_stack_api - INFO - 查詢航線 TPE-SDJ 的航班...
+2025-03-22 00:08:00,866 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SDJ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:01,398 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:01,398 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:02,400 - aviation_stack_api - INFO - 查詢航線 TPE-KIJ 的航班...
+2025-03-22 00:08:02,401 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'KIJ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:02,976 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:02,977 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:03,979 - aviation_stack_api - INFO - 查詢航線 TPE-ADL 的航班...
+2025-03-22 00:08:03,980 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'ADL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:04,488 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:04,488 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:05,489 - aviation_stack_api - INFO - 查詢航線 TPE-ANC 的航班...
+2025-03-22 00:08:05,490 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'ANC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:06,039 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:06,040 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:07,040 - aviation_stack_api - INFO - 查詢航線 TPE-BDL 的航班...
+2025-03-22 00:08:07,041 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'BDL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:07,532 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:07,533 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:08,535 - aviation_stack_api - INFO - 查詢航線 TPE-BOS 的航班...
+2025-03-22 00:08:08,536 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'BOS', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:09,044 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:09,045 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:10,047 - aviation_stack_api - INFO - 查詢航線 TPE-CLE 的航班...
+2025-03-22 00:08:10,047 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CLE', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:10,540 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:10,541 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:11,542 - aviation_stack_api - INFO - 查詢航線 TPE-CLT 的航班...
+2025-03-22 00:08:11,543 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CLT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:12,048 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:12,048 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:13,050 - aviation_stack_api - INFO - 查詢航線 TPE-CMH 的航班...
+2025-03-22 00:08:13,051 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CMH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:13,558 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:13,558 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:14,559 - aviation_stack_api - INFO - 查詢航線 TPE-CVG 的航班...
+2025-03-22 00:08:14,560 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CVG', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:15,128 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:15,131 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:16,132 - aviation_stack_api - INFO - 查詢航線 TPE-DEN 的航班...
+2025-03-22 00:08:16,133 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'DEN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:16,674 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:16,674 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:17,675 - aviation_stack_api - INFO - 查詢航線 TPE-DFW 的航班...
+2025-03-22 00:08:17,676 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'DFW', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:18,240 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:18,240 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:19,241 - aviation_stack_api - INFO - 查詢航線 TPE-DTW 的航班...
+2025-03-22 00:08:19,242 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'DTW', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:19,747 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:19,747 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:20,749 - aviation_stack_api - INFO - 查詢航線 TPE-EWR 的航班...
+2025-03-22 00:08:20,749 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'EWR', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:21,264 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:21,265 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:22,268 - aviation_stack_api - INFO - 查詢航線 TPE-FLL 的航班...
+2025-03-22 00:08:22,268 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'FLL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:22,774 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:22,775 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:23,777 - aviation_stack_api - INFO - 查詢航線 TPE-IAD 的航班...
+2025-03-22 00:08:23,781 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'IAD', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:24,257 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:24,257 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:25,259 - aviation_stack_api - INFO - 查詢航線 TPE-IAH 的航班...
+2025-03-22 00:08:25,260 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'IAH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:25,797 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:25,797 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:26,798 - aviation_stack_api - INFO - 查詢航線 TPE-ICT 的航班...
+2025-03-22 00:08:26,798 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'ICT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:27,292 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:27,296 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:28,300 - aviation_stack_api - INFO - 查詢航線 TPE-IND 的航班...
+2025-03-22 00:08:28,301 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'IND', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:28,814 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:28,814 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:29,815 - aviation_stack_api - INFO - 查詢航線 TPE-JAX 的航班...
+2025-03-22 00:08:29,816 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'JAX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:30,369 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:30,370 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:31,371 - aviation_stack_api - INFO - 查詢航線 TPE-JFK 的航班...
+2025-03-22 00:08:31,371 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'JFK', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:31,888 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:31,889 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:32,890 - aviation_stack_api - INFO - 查詢航線 TPE-LAS 的航班...
+2025-03-22 00:08:32,912 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'LAS', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:33,427 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:33,428 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:34,430 - aviation_stack_api - INFO - 查詢航線 TPE-LAX 的航班...
+2025-03-22 00:08:34,431 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'LAX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:34,941 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:34,942 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:35,944 - aviation_stack_api - INFO - 查詢航線 TPE-MCI 的航班...
+2025-03-22 00:08:35,945 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MCI', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:36,502 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:36,512 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:37,514 - aviation_stack_api - INFO - 查詢航線 TPE-MCO 的航班...
+2025-03-22 00:08:37,515 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MCO', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:38,012 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:38,013 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:39,022 - aviation_stack_api - INFO - 查詢航線 TPE-MEM 的航班...
+2025-03-22 00:08:39,033 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MEM', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:39,594 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:39,595 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:40,596 - aviation_stack_api - INFO - 查詢航線 TPE-MIA 的航班...
+2025-03-22 00:08:40,596 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MIA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:41,124 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:41,125 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:42,127 - aviation_stack_api - INFO - 查詢航線 TPE-MKE 的航班...
+2025-03-22 00:08:42,128 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MKE', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:42,691 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:42,692 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:43,698 - aviation_stack_api - INFO - 查詢航線 TPE-MSP 的航班...
+2025-03-22 00:08:43,701 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MSP', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:44,229 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:44,229 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:45,230 - aviation_stack_api - INFO - 查詢航線 TPE-MSY 的航班...
+2025-03-22 00:08:45,230 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MSY', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:45,755 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:45,756 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:46,758 - aviation_stack_api - INFO - 查詢航線 TPE-OKC 的航班...
+2025-03-22 00:08:46,759 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'OKC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:47,277 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:47,278 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:48,279 - aviation_stack_api - INFO - 查詢航線 TPE-OMA 的航班...
+2025-03-22 00:08:48,280 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'OMA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:48,765 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:48,765 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:49,766 - aviation_stack_api - INFO - 查詢航線 TPE-ORD 的航班...
+2025-03-22 00:08:49,767 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'ORD', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:50,318 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:50,319 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:51,319 - aviation_stack_api - INFO - 查詢航線 TPE-PBI 的航班...
+2025-03-22 00:08:51,320 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'PBI', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:51,833 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:51,835 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:52,837 - aviation_stack_api - INFO - 查詢航線 TPE-PDX 的航班...
+2025-03-22 00:08:52,837 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'PDX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:53,366 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:53,366 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:54,367 - aviation_stack_api - INFO - 查詢航線 TPE-PHL 的航班...
+2025-03-22 00:08:54,370 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'PHL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:54,903 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:54,903 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:55,904 - aviation_stack_api - INFO - 查詢航線 TPE-PHX 的航班...
+2025-03-22 00:08:55,905 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'PHX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:56,408 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:56,408 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:57,409 - aviation_stack_api - INFO - 查詢航線 TPE-PIT 的航班...
+2025-03-22 00:08:57,410 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'PIT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:57,928 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:57,928 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:08:58,929 - aviation_stack_api - INFO - 查詢航線 TPE-RDU 的航班...
+2025-03-22 00:08:58,930 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'RDU', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:08:59,432 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:08:59,432 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:00,433 - aviation_stack_api - INFO - 查詢航線 TPE-RIC 的航班...
+2025-03-22 00:09:00,434 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'RIC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:00,947 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:00,948 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:01,949 - aviation_stack_api - INFO - 查詢航線 TPE-SAN 的航班...
+2025-03-22 00:09:01,949 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SAN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:02,502 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:02,503 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:03,505 - aviation_stack_api - INFO - 查詢航線 TPE-SDF 的航班...
+2025-03-22 00:09:03,506 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SDF', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:04,023 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:04,024 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:05,025 - aviation_stack_api - INFO - 查詢航線 TPE-SEA 的航班...
+2025-03-22 00:09:05,026 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SEA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:05,529 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:05,530 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:06,531 - aviation_stack_api - INFO - 查詢航線 TPE-SFO 的航班...
+2025-03-22 00:09:06,531 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SFO', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:07,075 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:07,076 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:08,077 - aviation_stack_api - INFO - 查詢航線 TPE-SJC 的航班...
+2025-03-22 00:09:08,078 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SJC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:08,599 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:08,601 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:09,607 - aviation_stack_api - INFO - 查詢航線 TPE-SLC 的航班...
+2025-03-22 00:09:09,608 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SLC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:10,134 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:10,134 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:11,135 - aviation_stack_api - INFO - 查詢航線 TPE-SMF 的航班...
+2025-03-22 00:09:11,137 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SMF', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:11,668 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:11,669 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:12,671 - aviation_stack_api - INFO - 查詢航線 TPE-STL 的航班...
+2025-03-22 00:09:12,672 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'STL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:13,205 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:13,207 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:14,216 - aviation_stack_api - INFO - 查詢航線 TPE-TUL 的航班...
+2025-03-22 00:09:14,218 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'TUL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:14,741 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:14,742 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:15,744 - aviation_stack_api - INFO - 查詢航線 TPE-TUS 的航班...
+2025-03-22 00:09:15,745 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'TUS', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:16,246 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:16,246 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:17,248 - aviation_stack_api - INFO - 查詢航線 TPE-YEG 的航班...
+2025-03-22 00:09:17,248 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'YEG', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:17,776 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:17,780 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:18,781 - aviation_stack_api - INFO - 查詢航線 TPE-YHZ 的航班...
+2025-03-22 00:09:18,781 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'YHZ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:19,309 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:19,310 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:20,315 - aviation_stack_api - INFO - 查詢航線 TPE-YOW 的航班...
+2025-03-22 00:09:20,315 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'YOW', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:20,854 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:20,855 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:21,856 - aviation_stack_api - INFO - 查詢航線 TPE-YUL 的航班...
+2025-03-22 00:09:21,858 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'YUL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:22,390 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:22,390 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:23,391 - aviation_stack_api - INFO - 查詢航線 TPE-YVR 的航班...
+2025-03-22 00:09:23,392 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'YVR', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:23,930 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:23,930 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:24,932 - aviation_stack_api - INFO - 查詢航線 TPE-YYC 的航班...
+2025-03-22 00:09:24,946 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'YYC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:25,587 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:25,587 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:26,589 - aviation_stack_api - INFO - 查詢航線 TPE-YYZ 的航班...
+2025-03-22 00:09:26,589 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'YYZ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:27,227 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:27,228 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:28,229 - aviation_stack_api - INFO - 查詢航線 TPE-SYD 的航班...
+2025-03-22 00:09:28,230 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SYD', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:28,720 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:28,721 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:29,722 - aviation_stack_api - INFO - 查詢航線 TPE-MEL 的航班...
+2025-03-22 00:09:29,724 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MEL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:30,290 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:30,290 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:31,292 - aviation_stack_api - INFO - 查詢航線 TPE-BNE 的航班...
+2025-03-22 00:09:31,292 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'BNE', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:31,796 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:31,796 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:32,798 - aviation_stack_api - INFO - 查詢航線 TPE-PER 的航班...
+2025-03-22 00:09:32,798 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'PER', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:33,305 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:33,308 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:34,313 - aviation_stack_api - INFO - 查詢航線 TPE-ADL 的航班...
+2025-03-22 00:09:34,313 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'ADL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:34,837 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:34,838 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:35,839 - aviation_stack_api - INFO - 查詢航線 TPE-OOL 的航班...
+2025-03-22 00:09:35,840 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'OOL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:36,350 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:36,351 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:37,352 - aviation_stack_api - INFO - 查詢航線 TPE-BKK 的航班...
+2025-03-22 00:09:37,353 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'BKK', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:37,855 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:37,856 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:38,857 - aviation_stack_api - INFO - 查詢航線 TPE-HKT 的航班...
+2025-03-22 00:09:38,858 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'HKT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:39,401 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:39,402 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:40,403 - aviation_stack_api - INFO - 查詢航線 TPE-CNX 的航班...
+2025-03-22 00:09:40,403 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CNX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:40,971 - aviation_stack_api - ERROR - API請求失敗: 403 Forbidden
+2025-03-22 00:09:40,972 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"function_access_restricted","message":"Your current subscription plan does not support this API function."}}
+2025-03-22 00:09:41,973 - aviation_stack_api - INFO - 查詢航線 TPE-KBV 的航班...
+2025-03-22 00:09:41,973 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'KBV', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:42,504 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:09:42,505 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:09:43,505 - aviation_stack_api - INFO - 查詢航線 TPE-PEK 的航班...
+2025-03-22 00:09:43,506 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'PEK', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:43,999 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:09:44,000 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:09:45,006 - aviation_stack_api - INFO - 查詢航線 TPE-PVG 的航班...
+2025-03-22 00:09:45,007 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'PVG', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:45,517 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:09:45,517 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:09:46,518 - aviation_stack_api - INFO - 查詢航線 TPE-SHA 的航班...
+2025-03-22 00:09:46,519 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SHA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:46,976 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:09:46,977 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:09:47,978 - aviation_stack_api - INFO - 查詢航線 TPE-CKG 的航班...
+2025-03-22 00:09:47,978 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CKG', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:48,465 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:09:48,471 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:09:49,474 - aviation_stack_api - INFO - 查詢航線 TPE-CTU 的航班...
+2025-03-22 00:09:49,475 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CTU', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:49,962 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:09:49,963 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:09:50,974 - aviation_stack_api - INFO - 查詢航線 TPE-FOC 的航班...
+2025-03-22 00:09:50,977 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'FOC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:51,394 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:09:51,394 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:09:52,395 - aviation_stack_api - INFO - 查詢航線 TPE-HAK 的航班...
+2025-03-22 00:09:52,396 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'HAK', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:52,936 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:09:52,936 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:09:53,937 - aviation_stack_api - INFO - 查詢航線 TPE-HGH 的航班...
+2025-03-22 00:09:53,937 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'HGH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:54,432 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:09:54,450 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:09:55,458 - aviation_stack_api - INFO - 查詢航線 TPE-JJN 的航班...
+2025-03-22 00:09:55,459 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'JJN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:56,001 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:09:56,002 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:09:57,003 - aviation_stack_api - INFO - 查詢航線 TPE-KMG 的航班...
+2025-03-22 00:09:57,003 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'KMG', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:57,473 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:09:57,474 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:09:58,474 - aviation_stack_api - INFO - 查詢航線 TPE-KWE 的航班...
+2025-03-22 00:09:58,475 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'KWE', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:09:58,941 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:09:58,942 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:09:59,943 - aviation_stack_api - INFO - 查詢航線 TPE-NNG 的航班...
+2025-03-22 00:09:59,943 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'NNG', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:00,490 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:00,491 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:01,494 - aviation_stack_api - INFO - 查詢航線 TPE-SWA 的航班...
+2025-03-22 00:10:01,497 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SWA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:01,962 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:01,963 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:02,964 - aviation_stack_api - INFO - 查詢航線 TPE-SYX 的航班...
+2025-03-22 00:10:02,965 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SYX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:03,449 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:03,449 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:04,450 - aviation_stack_api - INFO - 查詢航線 TPE-SZX 的航班...
+2025-03-22 00:10:04,451 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SZX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:04,925 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:04,926 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:05,927 - aviation_stack_api - INFO - 查詢航線 TPE-WUH 的航班...
+2025-03-22 00:10:05,928 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'WUH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:06,391 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:06,391 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:07,396 - aviation_stack_api - INFO - 查詢航線 TPE-XMN 的航班...
+2025-03-22 00:10:07,401 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'XMN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:07,952 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:07,953 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:08,954 - aviation_stack_api - INFO - 查詢航線 TPE-ZUH 的航班...
+2025-03-22 00:10:08,954 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'ZUH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:09,424 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:09,424 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:10,425 - aviation_stack_api - INFO - 查詢航線 TPE-ICN 的航班...
+2025-03-22 00:10:10,426 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'ICN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:10,922 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:10,923 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:11,926 - aviation_stack_api - INFO - 查詢航線 TPE-GMP 的航班...
+2025-03-22 00:10:11,926 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'GMP', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:12,405 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:12,406 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:13,407 - aviation_stack_api - INFO - 查詢航線 TPE-PUS 的航班...
+2025-03-22 00:10:13,407 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'PUS', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:13,955 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:13,956 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:14,957 - aviation_stack_api - INFO - 查詢航線 TPE-CJU 的航班...
+2025-03-22 00:10:14,957 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CJU', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:15,461 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:15,462 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:16,463 - aviation_stack_api - INFO - 查詢航線 TPE-TAE 的航班...
+2025-03-22 00:10:16,464 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'TAE', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:17,033 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:17,033 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:18,034 - aviation_stack_api - INFO - 查詢航線 TPE-HKG 的航班...
+2025-03-22 00:10:18,035 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'HKG', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:18,559 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:18,560 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:19,562 - aviation_stack_api - INFO - 查詢航線 TPE-MFM 的航班...
+2025-03-22 00:10:19,563 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MFM', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:20,040 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:20,040 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:21,041 - aviation_stack_api - INFO - 查詢航線 TPE-SIN 的航班...
+2025-03-22 00:10:21,042 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SIN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:21,556 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:21,556 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:22,558 - aviation_stack_api - INFO - 查詢航線 TPE-KUL 的航班...
+2025-03-22 00:10:22,558 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'KUL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:23,020 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:23,020 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:24,021 - aviation_stack_api - INFO - 查詢航線 TPE-PEN 的航班...
+2025-03-22 00:10:24,022 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'PEN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:24,490 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:24,490 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:25,492 - aviation_stack_api - INFO - 查詢航線 TPE-JHB 的航班...
+2025-03-22 00:10:25,493 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'JHB', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:25,959 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:25,960 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:26,962 - aviation_stack_api - INFO - 查詢航線 TPE-KNO 的航班...
+2025-03-22 00:10:26,962 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'KNO', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:27,495 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:27,496 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:28,498 - aviation_stack_api - INFO - 查詢航線 TPE-CGK 的航班...
+2025-03-22 00:10:28,498 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CGK', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:29,000 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:29,000 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:30,001 - aviation_stack_api - INFO - 查詢航線 TPE-DPS 的航班...
+2025-03-22 00:10:30,002 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'DPS', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:30,483 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:30,483 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:31,484 - aviation_stack_api - INFO - 查詢航線 TPE-SUB 的航班...
+2025-03-22 00:10:31,485 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SUB', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:31,931 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:31,932 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:32,933 - aviation_stack_api - INFO - 查詢航線 TPE-MNL 的航班...
+2025-03-22 00:10:32,934 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MNL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:33,391 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:33,392 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:34,394 - aviation_stack_api - INFO - 查詢航線 TPE-CEB 的航班...
+2025-03-22 00:10:34,394 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CEB', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:34,861 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:34,862 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:35,863 - aviation_stack_api - INFO - 查詢航線 TPE-DVO 的航班...
+2025-03-22 00:10:35,863 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'DVO', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:36,350 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:36,351 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:37,352 - aviation_stack_api - INFO - 查詢航線 TPE-HAN 的航班...
+2025-03-22 00:10:37,352 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'HAN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:37,820 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:37,820 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:38,821 - aviation_stack_api - INFO - 查詢航線 TPE-SGN 的航班...
+2025-03-22 00:10:38,822 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SGN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:39,303 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:39,304 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:40,305 - aviation_stack_api - INFO - 查詢航線 TPE-DAD 的航班...
+2025-03-22 00:10:40,305 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'DAD', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:40,726 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:40,726 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:41,727 - aviation_stack_api - INFO - 查詢航線 TPE-BWN 的航班...
+2025-03-22 00:10:41,728 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'BWN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:42,208 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:42,208 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:10:43,210 - aviation_stack_api - INFO - 查詢航線 TPE-PNH 的航班...
+2025-03-22 00:10:43,211 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'PNH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:43,672 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:43,673 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:10:44,675 - aviation_stack_api - INFO - 查詢航線 TPE-LPQ 的航班...
+2025-03-22 00:10:44,676 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'LPQ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:45,206 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:45,207 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:10:46,208 - aviation_stack_api - INFO - 查詢航線 TPE-VTE 的航班...
+2025-03-22 00:10:46,209 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'VTE', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:46,683 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:46,683 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:10:47,684 - aviation_stack_api - INFO - 查詢航線 TPE-RGN 的航班...
+2025-03-22 00:10:47,685 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'RGN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:48,160 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:48,160 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:10:49,161 - aviation_stack_api - INFO - 查詢航線 TPE-AUH 的航班...
+2025-03-22 00:10:49,162 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'AUH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:49,636 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:49,637 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:10:50,638 - aviation_stack_api - INFO - 查詢航線 TPE-BAH 的航班...
+2025-03-22 00:10:50,639 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'BAH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:51,181 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:51,182 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:10:52,190 - aviation_stack_api - INFO - 查詢航線 TPE-DOH 的航班...
+2025-03-22 00:10:52,196 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'DOH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:52,676 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:52,677 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:10:53,678 - aviation_stack_api - INFO - 查詢航線 TPE-DXB 的航班...
+2025-03-22 00:10:53,679 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'DXB', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:54,202 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:54,202 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:10:55,203 - aviation_stack_api - INFO - 查詢航線 TPE-JED 的航班...
+2025-03-22 00:10:55,204 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'JED', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:55,718 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:55,718 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:10:56,719 - aviation_stack_api - INFO - 查詢航線 TPE-KWI 的航班...
+2025-03-22 00:10:56,720 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'KWI', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:57,180 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:57,180 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:10:58,181 - aviation_stack_api - INFO - 查詢航線 TPE-MCT 的航班...
+2025-03-22 00:10:58,182 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MCT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:10:58,695 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:10:58,695 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:10:59,696 - aviation_stack_api - INFO - 查詢航線 TPE-RUH 的航班...
+2025-03-22 00:10:59,697 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'RUH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:00,173 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:00,173 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:01,174 - aviation_stack_api - INFO - 查詢航線 TPE-AMS 的航班...
+2025-03-22 00:11:01,175 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'AMS', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:01,631 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:01,632 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:11:02,632 - aviation_stack_api - INFO - 查詢航線 TPE-ARN 的航班...
+2025-03-22 00:11:02,633 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'ARN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:03,115 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:03,115 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:04,116 - aviation_stack_api - INFO - 查詢航線 TPE-ATH 的航班...
+2025-03-22 00:11:04,116 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'ATH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:04,637 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:04,638 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:05,640 - aviation_stack_api - INFO - 查詢航線 TPE-BCN 的航班...
+2025-03-22 00:11:05,641 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'BCN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:06,154 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:06,155 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:07,156 - aviation_stack_api - INFO - 查詢航線 TPE-BRU 的航班...
+2025-03-22 00:11:07,157 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'BRU', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:07,665 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:07,666 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:08,667 - aviation_stack_api - INFO - 查詢航線 TPE-BSL 的航班...
+2025-03-22 00:11:08,667 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'BSL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:09,197 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:09,197 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:10,199 - aviation_stack_api - INFO - 查詢航線 TPE-BUD 的航班...
+2025-03-22 00:11:10,199 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'BUD', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:10,694 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:10,694 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:11,696 - aviation_stack_api - INFO - 查詢航線 TPE-CDG 的航班...
+2025-03-22 00:11:11,696 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CDG', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:12,169 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:12,169 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:11:13,171 - aviation_stack_api - INFO - 查詢航線 TPE-CPH 的航班...
+2025-03-22 00:11:13,171 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CPH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:13,691 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:13,692 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:14,693 - aviation_stack_api - INFO - 查詢航線 TPE-DUS 的航班...
+2025-03-22 00:11:14,693 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'DUS', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:15,221 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:15,221 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:11:16,222 - aviation_stack_api - INFO - 查詢航線 TPE-EDI 的航班...
+2025-03-22 00:11:16,222 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'EDI', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:16,691 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:16,692 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:17,693 - aviation_stack_api - INFO - 查詢航線 TPE-FCO 的航班...
+2025-03-22 00:11:17,693 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'FCO', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:18,184 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:18,185 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:19,186 - aviation_stack_api - INFO - 查詢航線 TPE-FLR 的航班...
+2025-03-22 00:11:19,187 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'FLR', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:19,685 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:19,686 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:20,688 - aviation_stack_api - INFO - 查詢航線 TPE-FRA 的航班...
+2025-03-22 00:11:20,688 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'FRA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:21,198 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:21,198 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:22,199 - aviation_stack_api - INFO - 查詢航線 TPE-GVA 的航班...
+2025-03-22 00:11:22,200 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'GVA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:22,658 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:22,659 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:23,660 - aviation_stack_api - INFO - 查詢航線 TPE-HAM 的航班...
+2025-03-22 00:11:23,660 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'HAM', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:24,147 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:24,148 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:11:25,148 - aviation_stack_api - INFO - 查詢航線 TPE-HEL 的航班...
+2025-03-22 00:11:25,149 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'HEL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:25,665 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:25,665 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:26,666 - aviation_stack_api - INFO - 查詢航線 TPE-IST 的航班...
+2025-03-22 00:11:26,667 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'IST', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:27,187 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:27,188 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:11:28,189 - aviation_stack_api - INFO - 查詢航線 TPE-KEF 的航班...
+2025-03-22 00:11:28,190 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'KEF', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:28,674 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:28,674 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:29,675 - aviation_stack_api - INFO - 查詢航線 TPE-LGW 的航班...
+2025-03-22 00:11:29,676 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'LGW', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:30,148 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:30,149 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:31,150 - aviation_stack_api - INFO - 查詢航線 TPE-LHR 的航班...
+2025-03-22 00:11:31,151 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'LHR', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:31,610 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:31,611 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:32,611 - aviation_stack_api - INFO - 查詢航線 TPE-LYS 的航班...
+2025-03-22 00:11:32,612 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'LYS', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:33,070 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:33,071 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:11:34,072 - aviation_stack_api - INFO - 查詢航線 TPE-MAD 的航班...
+2025-03-22 00:11:34,073 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MAD', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:34,519 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:34,520 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:11:35,521 - aviation_stack_api - INFO - 查詢航線 TPE-MAN 的航班...
+2025-03-22 00:11:35,521 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MAN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:36,056 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:36,057 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:37,058 - aviation_stack_api - INFO - 查詢航線 TPE-MRS 的航班...
+2025-03-22 00:11:37,059 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MRS', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:37,590 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:37,590 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:38,592 - aviation_stack_api - INFO - 查詢航線 TPE-MUC 的航班...
+2025-03-22 00:11:38,593 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MUC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:39,034 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:39,034 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:11:40,035 - aviation_stack_api - INFO - 查詢航線 TPE-MXP 的航班...
+2025-03-22 00:11:40,036 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'MXP', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:40,476 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:40,476 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:41,477 - aviation_stack_api - INFO - 查詢航線 TPE-NAP 的航班...
+2025-03-22 00:11:41,478 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'NAP', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:41,988 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:41,988 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:42,989 - aviation_stack_api - INFO - 查詢航線 TPE-NCE 的航班...
+2025-03-22 00:11:42,990 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'NCE', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:43,474 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:43,474 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:44,475 - aviation_stack_api - INFO - 查詢航線 TPE-OSL 的航班...
+2025-03-22 00:11:44,475 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'OSL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:44,996 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:44,996 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:45,997 - aviation_stack_api - INFO - 查詢航線 TPE-ORY 的航班...
+2025-03-22 00:11:45,998 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'ORY', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:46,471 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:46,472 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:47,473 - aviation_stack_api - INFO - 查詢航線 TPE-PRG 的航班...
+2025-03-22 00:11:47,473 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'PRG', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:47,979 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:47,980 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:11:48,981 - aviation_stack_api - INFO - 查詢航線 TPE-RTM 的航班...
+2025-03-22 00:11:48,982 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'RTM', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:49,490 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:49,491 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:50,491 - aviation_stack_api - INFO - 查詢航線 TPE-SVQ 的航班...
+2025-03-22 00:11:50,492 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'SVQ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:51,031 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:51,032 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:52,033 - aviation_stack_api - INFO - 查詢航線 TPE-VCE 的航班...
+2025-03-22 00:11:52,033 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'VCE', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:52,498 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:52,499 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:53,500 - aviation_stack_api - INFO - 查詢航線 TPE-VIE 的航班...
+2025-03-22 00:11:53,501 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'VIE', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:54,024 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:54,024 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:55,025 - aviation_stack_api - INFO - 查詢航線 TPE-VLC 的航班...
+2025-03-22 00:11:55,036 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'VLC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:55,500 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:55,500 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:56,501 - aviation_stack_api - INFO - 查詢航線 TPE-WAW 的航班...
+2025-03-22 00:11:56,502 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'WAW', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:56,983 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:56,984 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:57,985 - aviation_stack_api - INFO - 查詢航線 TPE-ZRH 的航班...
+2025-03-22 00:11:57,985 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'ZRH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:58,488 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:58,488 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:11:59,489 - aviation_stack_api - INFO - 查詢航線 TPE-AKL 的航班...
+2025-03-22 00:11:59,490 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'AKL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:11:59,955 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:11:59,955 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:00,957 - aviation_stack_api - INFO - 查詢航線 TPE-WLG 的航班...
+2025-03-22 00:12:00,957 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'WLG', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:01,457 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:01,457 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:02,458 - aviation_stack_api - INFO - 查詢航線 TPE-ZQN 的航班...
+2025-03-22 00:12:02,459 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'ZQN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:02,989 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:02,989 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:03,990 - aviation_stack_api - INFO - 查詢航線 TPE-AMM 的航班...
+2025-03-22 00:12:03,991 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'AMM', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:04,534 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:04,535 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:05,536 - aviation_stack_api - INFO - 查詢航線 TPE-CAI 的航班...
+2025-03-22 00:12:05,537 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'TPE', 'arr_iata': 'CAI', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:06,017 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:06,017 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:12:07,019 - aviation_stack_api - INFO - 查詢航線 KHH-TPE 的航班...
+2025-03-22 00:12:07,019 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'TPE', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:07,530 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:07,531 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:08,532 - aviation_stack_api - INFO - 查詢航線 KHH-RMQ 的航班...
+2025-03-22 00:12:08,533 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'RMQ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:08,999 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:09,000 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:10,001 - aviation_stack_api - INFO - 查詢航線 KHH-TTT 的航班...
+2025-03-22 00:12:10,001 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'TTT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:10,509 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:10,510 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:11,511 - aviation_stack_api - INFO - 查詢航線 KHH-HUN 的航班...
+2025-03-22 00:12:11,511 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'HUN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:11,995 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:11,996 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:12,997 - aviation_stack_api - INFO - 查詢航線 KHH-MZG 的航班...
+2025-03-22 00:12:12,998 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'MZG', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:13,472 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:13,472 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:14,473 - aviation_stack_api - INFO - 查詢航線 KHH-TSA 的航班...
+2025-03-22 00:12:14,474 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'TSA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:14,949 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:14,949 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:15,950 - aviation_stack_api - INFO - 查詢航線 KHH-GNI 的航班...
+2025-03-22 00:12:15,951 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'GNI', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:16,477 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:16,478 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:17,480 - aviation_stack_api - INFO - 查詢航線 KHH-MFK 的航班...
+2025-03-22 00:12:17,480 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'MFK', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:18,009 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:18,010 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:19,012 - aviation_stack_api - INFO - 查詢航線 KHH-LZN 的航班...
+2025-03-22 00:12:19,012 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'LZN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:19,518 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:19,518 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:20,519 - aviation_stack_api - INFO - 查詢航線 KHH-KYD 的航班...
+2025-03-22 00:12:20,520 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'KYD', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:20,968 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:20,970 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:21,973 - aviation_stack_api - INFO - 查詢航線 KHH-CMJ 的航班...
+2025-03-22 00:12:21,973 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'CMJ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:22,481 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:22,482 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:23,483 - aviation_stack_api - INFO - 查詢航線 KHH-WOT 的航班...
+2025-03-22 00:12:23,483 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'WOT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:24,009 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:24,009 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:25,011 - aviation_stack_api - INFO - 查詢航線 KHH-TNN 的航班...
+2025-03-22 00:12:25,012 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'TNN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:25,477 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:25,478 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:26,479 - aviation_stack_api - INFO - 查詢航線 KHH-HND 的航班...
+2025-03-22 00:12:26,480 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'HND', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:26,929 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:26,930 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:12:27,931 - aviation_stack_api - INFO - 查詢航線 KHH-NRT 的航班...
+2025-03-22 00:12:27,932 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'NRT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:28,417 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:28,417 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:12:29,419 - aviation_stack_api - INFO - 查詢航線 KHH-KIX 的航班...
+2025-03-22 00:12:29,420 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'KIX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:29,859 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:29,859 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:30,861 - aviation_stack_api - INFO - 查詢航線 KHH-FUK 的航班...
+2025-03-22 00:12:30,861 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'FUK', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:31,300 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:31,301 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:32,302 - aviation_stack_api - INFO - 查詢航線 KHH-CTS 的航班...
+2025-03-22 00:12:32,303 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'CTS', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:32,754 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:32,754 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:33,755 - aviation_stack_api - INFO - 查詢航線 KHH-NGO 的航班...
+2025-03-22 00:12:33,756 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'NGO', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:34,297 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:34,298 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:12:35,299 - aviation_stack_api - INFO - 查詢航線 KHH-OKA 的航班...
+2025-03-22 00:12:35,299 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'OKA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:35,821 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:35,822 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:36,824 - aviation_stack_api - INFO - 查詢航線 KHH-HIJ 的航班...
+2025-03-22 00:12:36,824 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'HIJ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:37,350 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:37,351 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:38,352 - aviation_stack_api - INFO - 查詢航線 KHH-SDJ 的航班...
+2025-03-22 00:12:38,352 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'SDJ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:38,816 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:38,816 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:12:39,817 - aviation_stack_api - INFO - 查詢航線 KHH-KIJ 的航班...
+2025-03-22 00:12:39,818 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'KIJ', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:40,285 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:40,285 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:12:41,287 - aviation_stack_api - INFO - 查詢航線 KHH-ADL 的航班...
+2025-03-22 00:12:41,287 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'ADL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:41,755 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:41,756 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:42,756 - aviation_stack_api - INFO - 查詢航線 KHH-ANC 的航班...
+2025-03-22 00:12:42,757 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'ANC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:43,247 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:43,248 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:44,249 - aviation_stack_api - INFO - 查詢航線 KHH-BDL 的航班...
+2025-03-22 00:12:44,250 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'BDL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:44,680 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:44,681 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:45,682 - aviation_stack_api - INFO - 查詢航線 KHH-BOS 的航班...
+2025-03-22 00:12:45,683 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'BOS', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:46,167 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:46,167 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:47,168 - aviation_stack_api - INFO - 查詢航線 KHH-CLE 的航班...
+2025-03-22 00:12:47,169 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'CLE', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:47,650 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:47,650 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:48,652 - aviation_stack_api - INFO - 查詢航線 KHH-CLT 的航班...
+2025-03-22 00:12:48,652 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'CLT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:49,134 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:49,135 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:50,136 - aviation_stack_api - INFO - 查詢航線 KHH-CMH 的航班...
+2025-03-22 00:12:50,136 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'CMH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:50,589 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:50,590 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:51,591 - aviation_stack_api - INFO - 查詢航線 KHH-CVG 的航班...
+2025-03-22 00:12:51,592 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'CVG', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:52,064 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:52,064 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:53,065 - aviation_stack_api - INFO - 查詢航線 KHH-DEN 的航班...
+2025-03-22 00:12:53,066 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'DEN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:53,525 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:53,526 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:54,527 - aviation_stack_api - INFO - 查詢航線 KHH-DFW 的航班...
+2025-03-22 00:12:54,528 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'DFW', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:55,001 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:55,001 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:56,002 - aviation_stack_api - INFO - 查詢航線 KHH-DTW 的航班...
+2025-03-22 00:12:56,003 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'DTW', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:56,462 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:56,462 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:57,463 - aviation_stack_api - INFO - 查詢航線 KHH-EWR 的航班...
+2025-03-22 00:12:57,464 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'EWR', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:57,989 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:57,990 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:12:58,991 - aviation_stack_api - INFO - 查詢航線 KHH-FLL 的航班...
+2025-03-22 00:12:58,992 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'FLL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:12:59,463 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:12:59,472 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:00,474 - aviation_stack_api - INFO - 查詢航線 KHH-IAD 的航班...
+2025-03-22 00:13:00,474 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'IAD', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:00,957 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:00,957 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:01,959 - aviation_stack_api - INFO - 查詢航線 KHH-IAH 的航班...
+2025-03-22 00:13:01,959 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'IAH', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:02,415 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:02,415 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:03,416 - aviation_stack_api - INFO - 查詢航線 KHH-ICT 的航班...
+2025-03-22 00:13:03,417 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'ICT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:03,865 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:03,866 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:13:04,867 - aviation_stack_api - INFO - 查詢航線 KHH-IND 的航班...
+2025-03-22 00:13:04,867 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'IND', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:05,351 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:05,352 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:06,353 - aviation_stack_api - INFO - 查詢航線 KHH-JAX 的航班...
+2025-03-22 00:13:06,354 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'JAX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:06,797 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:06,797 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:07,798 - aviation_stack_api - INFO - 查詢航線 KHH-JFK 的航班...
+2025-03-22 00:13:07,798 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'JFK', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:08,325 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:08,326 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:09,327 - aviation_stack_api - INFO - 查詢航線 KHH-LAS 的航班...
+2025-03-22 00:13:09,327 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'LAS', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:09,801 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:09,802 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:10,803 - aviation_stack_api - INFO - 查詢航線 KHH-LAX 的航班...
+2025-03-22 00:13:10,804 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'LAX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:11,326 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:11,327 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:12,328 - aviation_stack_api - INFO - 查詢航線 KHH-MCI 的航班...
+2025-03-22 00:13:12,328 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'MCI', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:12,862 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:12,863 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:13,864 - aviation_stack_api - INFO - 查詢航線 KHH-MCO 的航班...
+2025-03-22 00:13:13,864 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'MCO', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:14,332 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:14,333 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:15,333 - aviation_stack_api - INFO - 查詢航線 KHH-MEM 的航班...
+2025-03-22 00:13:15,334 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'MEM', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:15,861 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:15,862 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:16,862 - aviation_stack_api - INFO - 查詢航線 KHH-MIA 的航班...
+2025-03-22 00:13:16,863 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'MIA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:17,394 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:17,395 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:18,396 - aviation_stack_api - INFO - 查詢航線 KHH-MKE 的航班...
+2025-03-22 00:13:18,396 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'MKE', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:18,851 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:18,852 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:19,853 - aviation_stack_api - INFO - 查詢航線 KHH-MSP 的航班...
+2025-03-22 00:13:19,853 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'MSP', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:20,354 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:20,354 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:21,355 - aviation_stack_api - INFO - 查詢航線 KHH-MSY 的航班...
+2025-03-22 00:13:21,355 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'MSY', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:21,870 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:21,871 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:22,873 - aviation_stack_api - INFO - 查詢航線 KHH-OKC 的航班...
+2025-03-22 00:13:22,873 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'OKC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:23,361 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:23,361 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:24,362 - aviation_stack_api - INFO - 查詢航線 KHH-OMA 的航班...
+2025-03-22 00:13:24,363 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'OMA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:24,806 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:24,806 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:25,807 - aviation_stack_api - INFO - 查詢航線 KHH-ORD 的航班...
+2025-03-22 00:13:25,808 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'ORD', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:26,260 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:26,260 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:27,261 - aviation_stack_api - INFO - 查詢航線 KHH-PBI 的航班...
+2025-03-22 00:13:27,263 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'PBI', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:27,759 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:27,759 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:28,760 - aviation_stack_api - INFO - 查詢航線 KHH-PDX 的航班...
+2025-03-22 00:13:28,760 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'PDX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:29,283 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:29,284 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:30,286 - aviation_stack_api - INFO - 查詢航線 KHH-PHL 的航班...
+2025-03-22 00:13:30,286 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'PHL', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:30,738 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:30,739 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:13:31,740 - aviation_stack_api - INFO - 查詢航線 KHH-PHX 的航班...
+2025-03-22 00:13:31,740 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'PHX', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:32,255 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:32,255 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:33,256 - aviation_stack_api - INFO - 查詢航線 KHH-PIT 的航班...
+2025-03-22 00:13:33,257 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'PIT', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:33,710 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:33,711 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:34,712 - aviation_stack_api - INFO - 查詢航線 KHH-RDU 的航班...
+2025-03-22 00:13:34,712 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'RDU', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:35,175 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:35,175 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:36,176 - aviation_stack_api - INFO - 查詢航線 KHH-RIC 的航班...
+2025-03-22 00:13:36,177 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'RIC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:36,694 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:36,695 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:13:37,696 - aviation_stack_api - INFO - 查詢航線 KHH-SAN 的航班...
+2025-03-22 00:13:37,696 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'SAN', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:38,181 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:38,182 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:39,183 - aviation_stack_api - INFO - 查詢航線 KHH-SDF 的航班...
+2025-03-22 00:13:39,183 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'SDF', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:39,633 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:39,635 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:40,636 - aviation_stack_api - INFO - 查詢航線 KHH-SEA 的航班...
+2025-03-22 00:13:40,636 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'SEA', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:41,103 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:41,104 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:42,106 - aviation_stack_api - INFO - 查詢航線 KHH-SFO 的航班...
+2025-03-22 00:13:42,106 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'SFO', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:42,627 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:42,628 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:43,628 - aviation_stack_api - INFO - 查詢航線 KHH-SJC 的航班...
+2025-03-22 00:13:43,629 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'SJC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:44,060 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:44,061 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:45,062 - aviation_stack_api - INFO - 查詢航線 KHH-SLC 的航班...
+2025-03-22 00:13:45,062 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'SLC', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:13:45,582 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:13:45,584 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:13:46,585 - aviation_stack_api - INFO - 查詢航線 KHH-SMF 的航班...
+2025-03-22 00:13:46,586 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'dep_iata': 'KHH', 'arr_iata': 'SMF', 'flight_date': '2025-03-22', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:29:42,920 - test_aviation_stack - INFO - 開始 AviationStack API 和資料導入測試
+2025-03-22 00:29:42,921 - test_aviation_stack - INFO - Python版本: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-22 00:29:42,922 - test_aviation_stack - INFO - 當前目錄: C:\Users\Aliothouo\OneDrive\文件\學校\AlphaVision\AerotwineX
+2025-03-22 00:29:42,924 - test_aviation_stack - INFO - 測試 AviationStack API 連接...
+2025-03-22 00:29:42,932 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/airlines 參數: {'limit': 1, 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 00:29:43,630 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:29:43,631 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:29:43,632 - aviation_stack_api - WARNING - 達到API速率限制，等待4秒後重試
+2025-03-22 00:29:48,127 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:29:48,127 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 00:29:48,128 - aviation_stack_api - WARNING - 達到API速率限制，等待8秒後重試
+2025-03-22 00:29:56,638 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 00:29:56,638 - aviation_stack_api - ERROR - 回應內容: {"error":{"code":"usage_limit_reached","message":"Your monthly usage limit has been reached. Please upgrade your Subscription Plan."}}
+2025-03-22 00:29:56,639 - aviation_stack_api - WARNING - 達到API速率限制，等待12秒後重試
+2025-03-22 00:30:08,642 - aviation_stack_api - ERROR - API連接測試失敗: object of type 'NoneType' has no len()
+2025-03-22 00:30:08,644 - test_aviation_stack - INFO - API 連接測試結果: 失敗
+2025-03-22 00:30:08,645 - test_aviation_stack - ERROR - API連接失敗，無法繼續測試
+2025-03-22 00:30:08,645 - test_aviation_stack - ERROR - API測試失敗，跳過資料導入測試
+2025-03-22 00:30:08,646 - test_aviation_stack - INFO - 測試完成
+2025-03-22 00:31:00,179 - test_aviation_stack - INFO - 開始 AviationStack API 替代方案測試
+2025-03-22 00:31:00,181 - test_aviation_stack - INFO - 注意: 跳過實際API調用，僅測試緩存和模擬數據功能
+2025-03-22 00:31:00,182 - test_aviation_stack - INFO - Python版本: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-22 00:31:00,183 - test_aviation_stack - INFO - 當前目錄: C:\Users\Aliothouo\OneDrive\文件\學校\AlphaVision\AerotwineX
+2025-03-22 00:31:00,184 - test_aviation_stack - INFO - 
+測試緩存功能:
+2025-03-22 00:31:00,185 - test_aviation_stack - INFO - 緩存目錄: C:\Users\Aliothouo\OneDrive\文件\學校\AlphaVision\AerotwineX\cache\aviation_stack
+2025-03-22 00:31:00,186 - test_aviation_stack - INFO - 測試參數的緩存鍵: 369e329e7efde8129295638ed46e0ee4
+2025-03-22 00:31:48,532 - test_aviation_stack - INFO - 開始 AviationStack API 替代方案測試
+2025-03-22 00:31:48,536 - test_aviation_stack - INFO - 注意: 跳過實際API調用，僅測試緩存和模擬數據功能
+2025-03-22 00:31:48,538 - test_aviation_stack - INFO - Python版本: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-22 00:31:48,540 - test_aviation_stack - INFO - 當前目錄: C:\Users\Aliothouo\OneDrive\文件\學校\AlphaVision\AerotwineX
+2025-03-22 00:31:48,543 - test_aviation_stack - INFO - 
+測試緩存功能:
+2025-03-22 00:31:48,545 - test_aviation_stack - INFO - 緩存目錄: C:\Users\Aliothouo\OneDrive\文件\學校\AlphaVision\AerotwineX\cache\aviation_stack
+2025-03-22 00:31:48,547 - test_aviation_stack - INFO - 測試參數的緩存鍵: 369e329e7efde8129295638ed46e0ee4
+2025-03-22 00:31:48,552 - aviation_stack_api - INFO - 已保存到緩存: airlines
+2025-03-22 00:31:48,553 - test_aviation_stack - INFO - 已保存測試數據到緩存
+2025-03-22 00:31:48,632 - test_aviation_stack - INFO - 從緩存獲取數據: China Airlines
+2025-03-22 00:31:48,635 - test_aviation_stack - INFO - 緩存目錄中有 1 個文件
+2025-03-22 00:31:48,636 - test_aviation_stack - INFO - 緩存功能測試結果: 成功
+2025-03-22 00:31:48,637 - test_aviation_stack - INFO - 緩存功能測試結果: 成功
+2025-03-22 00:31:48,638 - test_aviation_stack - INFO - 
+測試模擬數據功能:
+2025-03-22 00:31:48,639 - test_aviation_stack - INFO - 生成 2025-03-22 的模擬航班數據...
+2025-03-22 00:32:15,975 - test_aviation_stack - INFO - 開始 AviationStack API 替代方案測試
+2025-03-22 00:32:15,977 - test_aviation_stack - INFO - 注意: 跳過實際API調用，僅測試緩存和模擬數據功能
+2025-03-22 00:32:15,977 - test_aviation_stack - INFO - Python版本: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-22 00:32:15,978 - test_aviation_stack - INFO - 當前目錄: C:\Users\Aliothouo\OneDrive\文件\學校\AlphaVision\AerotwineX
+2025-03-22 00:32:15,979 - test_aviation_stack - INFO - 
+測試緩存功能:
+2025-03-22 00:32:15,980 - test_aviation_stack - INFO - 緩存目錄: C:\Users\Aliothouo\OneDrive\文件\學校\AlphaVision\AerotwineX\cache\aviation_stack
+2025-03-22 00:32:15,980 - test_aviation_stack - INFO - 測試參數的緩存鍵: 369e329e7efde8129295638ed46e0ee4
+2025-03-22 00:32:15,983 - aviation_stack_api - INFO - 已保存到緩存: airlines
+2025-03-22 00:32:15,984 - test_aviation_stack - INFO - 已保存測試數據到緩存
+2025-03-22 00:32:15,992 - test_aviation_stack - INFO - 從緩存獲取數據: China Airlines
+2025-03-22 00:32:15,995 - test_aviation_stack - INFO - 緩存目錄中有 1 個文件
+2025-03-22 00:32:15,996 - test_aviation_stack - INFO - 緩存功能測試結果: 成功
+2025-03-22 00:32:15,997 - test_aviation_stack - INFO - 緩存功能測試結果: 成功
+2025-03-22 00:32:15,998 - test_aviation_stack - INFO - 
+測試模擬數據功能:
+2025-03-22 00:32:15,999 - test_aviation_stack - INFO - 生成 2025-03-22 的模擬航班數據...
+2025-03-22 00:32:16,009 - test_aviation_stack - INFO - 生成了 26 個模擬航班
+2025-03-22 00:32:48,443 - test_aviation_stack - INFO - 開始 AviationStack API 替代方案測試
+2025-03-22 00:32:48,444 - test_aviation_stack - INFO - 注意: 跳過實際API調用，僅測試緩存和模擬數據功能
+2025-03-22 00:32:48,445 - test_aviation_stack - INFO - Python版本: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-22 00:32:48,445 - test_aviation_stack - INFO - 當前目錄: C:\Users\Aliothouo\OneDrive\文件\學校\AlphaVision\AerotwineX
+2025-03-22 00:32:48,446 - test_aviation_stack - INFO - 
+測試緩存功能:
+2025-03-22 00:32:48,447 - test_aviation_stack - INFO - 緩存目錄: C:\Users\Aliothouo\OneDrive\文件\學校\AlphaVision\AerotwineX\cache\aviation_stack
+2025-03-22 00:32:48,448 - test_aviation_stack - INFO - 測試參數的緩存鍵: 369e329e7efde8129295638ed46e0ee4
+2025-03-22 00:32:48,450 - aviation_stack_api - INFO - 已保存到緩存: airlines
+2025-03-22 00:32:48,451 - test_aviation_stack - INFO - 已保存測試數據到緩存
+2025-03-22 00:32:48,457 - test_aviation_stack - INFO - 從緩存獲取數據: China Airlines
+2025-03-22 00:32:48,459 - test_aviation_stack - INFO - 緩存目錄中有 1 個文件
+2025-03-22 00:32:48,460 - test_aviation_stack - INFO - 緩存功能測試結果: 成功
+2025-03-22 00:32:48,461 - test_aviation_stack - INFO - 緩存功能測試結果: 成功
+2025-03-22 00:32:48,461 - test_aviation_stack - INFO - 
+測試模擬數據功能:
+2025-03-22 00:32:48,462 - test_aviation_stack - INFO - 生成 2025-03-22 的模擬航班數據...
+2025-03-22 00:32:48,467 - test_aviation_stack - INFO - 生成了 27 個模擬航班
+2025-03-22 00:33:42,346 - test_aviation_stack - INFO - 開始 AviationStack API 替代方案測試
+2025-03-22 00:33:42,347 - test_aviation_stack - INFO - 注意: 跳過實際API調用，僅測試緩存和模擬數據功能
+2025-03-22 00:33:42,348 - test_aviation_stack - INFO - Python版本: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-22 00:33:42,349 - test_aviation_stack - INFO - 當前目錄: C:\Users\Aliothouo\OneDrive\文件\學校\AlphaVision\AerotwineX
+2025-03-22 00:33:42,349 - test_aviation_stack - INFO - 
+測試緩存功能:
+2025-03-22 00:33:42,350 - test_aviation_stack - INFO - 緩存目錄: C:\Users\Aliothouo\OneDrive\文件\學校\AlphaVision\AerotwineX\cache\aviation_stack
+2025-03-22 00:33:42,350 - test_aviation_stack - INFO - 測試參數的緩存鍵: 369e329e7efde8129295638ed46e0ee4
+2025-03-22 00:33:42,352 - aviation_stack_api - INFO - 已保存到緩存: airlines
+2025-03-22 00:33:42,353 - test_aviation_stack - INFO - 已保存測試數據到緩存
+2025-03-22 00:33:42,357 - test_aviation_stack - INFO - 從緩存獲取數據: China Airlines
+2025-03-22 00:33:42,358 - test_aviation_stack - INFO - 緩存目錄中有 1 個文件
+2025-03-22 00:33:42,358 - test_aviation_stack - INFO - 緩存功能測試結果: 成功
+2025-03-22 00:33:42,359 - test_aviation_stack - INFO - 緩存功能測試結果: 成功
+2025-03-22 00:33:42,360 - test_aviation_stack - INFO - 
+測試模擬數據功能:
+2025-03-22 00:33:42,361 - test_aviation_stack - INFO - 生成 2025-03-22 的模擬航班數據...
+2025-03-22 00:33:42,365 - test_aviation_stack - INFO - 生成了 22 個模擬航班
+2025-03-22 00:33:42,369 - test_aviation_stack - INFO - 模擬航班示例已保存到 logs/mock_flights_sample.json
+2025-03-22 00:33:42,369 - test_aviation_stack - INFO - 模擬航班樣本屬性: dict_keys(['flight_number', 'scheduled_departure', 'airline_id', 'departure_airport_code', 'arrival_airport_code', 'scheduled_arrival', 'actual_departure', 'actual_arrival', 'flight_status', 'aircraft_type', 'price', 'booking_link', 'scrape_date', 'data_source'])
+2025-03-22 00:33:42,370 - test_aviation_stack - INFO - 模擬航班範例: N/ACX625 N/A -> N/A
+2025-03-22 00:33:42,371 - test_aviation_stack - INFO - 模擬數據功能測試結果: 成功
+2025-03-22 00:33:42,372 - test_aviation_stack - INFO - 模擬數據功能測試結果: 成功
+2025-03-22 00:33:42,373 - test_aviation_stack - INFO - 
+測試使用模擬數據進行批量導入:
+2025-03-22 00:33:42,373 - test_aviation_stack - INFO - 使用模擬數據導入 2025-03-22 的航班...
+2025-03-22 00:33:42,374 - aviation_stack_api - INFO - 批量獲取航班信息 - 日期: 2025-03-22, 最大API調用: 0, 使用緩存: False, 使用模擬: True
+2025-03-22 00:33:42,375 - aviation_stack_api - WARNING - 已達最大API調用次數(0)，停止查詢
+2025-03-22 00:33:42,375 - aviation_stack_api - INFO - 使用模擬航班數據
+2025-03-22 00:33:42,378 - aviation_stack_api - INFO - 總共獲取了 36 個航班資訊，API調用次數：0
+2025-03-22 00:33:42,381 - aviation_stack_importer - INFO - 開始批量導入 10 個航班...
+2025-03-22 00:33:42,580 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:33:42,788 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:33:42,958 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:33:43,158 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:33:43,291 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:33:43,583 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:33:43,857 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:33:44,081 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:33:44,312 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:33:44,457 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:33:44,458 - aviation_stack_importer - INFO - 進度: 10/10 (0 成功)
+2025-03-22 00:33:44,762 - aviation_stack_importer - INFO - 導入完成: 0/10 成功率: 0.00%
+2025-03-22 00:33:44,763 - test_aviation_stack - INFO - 導入結果: 0/10 成功率: 0.00%
+2025-03-22 00:33:44,764 - test_aviation_stack - INFO - 模擬數據批量導入測試結果: 失敗
+2025-03-22 00:33:44,765 - test_aviation_stack - INFO - 模擬數據批量導入測試結果: 失敗
+2025-03-22 00:33:44,770 - test_aviation_stack - WARNING - 部分替代方案測試失敗
+2025-03-22 00:33:44,772 - test_aviation_stack - INFO - 測試完成
+2025-03-22 00:33:57,361 - import_aviation_stack - INFO - 獲取導入統計資訊...
+2025-03-22 00:33:57,967 - aviation_stack_importer - ERROR - 獲取統計資訊失敗: 'str' object has no attribute 'strftime'
+2025-03-22 00:33:57,971 - import_aviation_stack - ERROR - 無法獲取統計資訊
+2025-03-22 00:34:08,405 - import_aviation_stack - INFO - 開始導入 2025-03-22 的航班數據...
+2025-03-22 00:34:08,410 - aviation_stack_api - INFO - 批量獲取航班信息 - 日期: 2025-03-22, 最大API調用: 0, 使用緩存: True, 使用模擬: True
+2025-03-22 00:34:08,411 - aviation_stack_api - WARNING - 已達最大API調用次數(0)，停止查詢
+2025-03-22 00:34:08,411 - aviation_stack_api - INFO - 使用模擬航班數據
+2025-03-22 00:34:08,412 - aviation_stack_api - INFO - 總共獲取了 36 個航班資訊，API調用次數：0
+2025-03-22 00:34:08,413 - aviation_stack_importer - INFO - 開始批量導入 5 個航班...
+2025-03-22 00:34:08,498 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:34:08,737 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:34:08,920 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:34:09,097 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:34:09,334 - aviation_stack_importer - ERROR - 導入航班失敗: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_departure'。 (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'actual_arrival'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]無效的資料行名稱 'data_source'。 (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]陳述式無法準備。 (8180)")
+2025-03-22 00:34:09,336 - aviation_stack_importer - INFO - 進度: 5/5 (0 成功)
+2025-03-22 00:34:09,583 - aviation_stack_importer - INFO - 導入完成: 0/5 成功率: 0.00%
+2025-03-22 00:34:09,584 - import_aviation_stack - INFO - 完成導入: 0/5 成功率: 0.00%
+2025-03-22 00:51:43,069 - import_aviation_stack - INFO - 開始導入 2025-03-22 的航班數據...
+2025-03-22 00:51:43,073 - aviation_stack_api - INFO - 批量獲取航班信息 - 日期: 2025-03-22, 最大API調用: 0, 使用緩存: True, 使用模擬: True
+2025-03-22 00:51:43,074 - aviation_stack_api - WARNING - 已達最大API調用次數(0)，停止查詢
+2025-03-22 00:51:43,074 - aviation_stack_api - INFO - 使用模擬航班數據
+2025-03-22 00:51:43,075 - aviation_stack_api - INFO - 總共獲取了 31 個航班資訊，API調用次數：0
+2025-03-22 00:51:43,075 - aviation_stack_importer - INFO - 開始批量導入 5 個航班...
+2025-03-22 00:51:44,062 - aviation_stack_importer - INFO - 進度: 5/5 (5 成功)
+2025-03-22 00:51:44,328 - aviation_stack_importer - INFO - 導入完成: 5/5 成功率: 100.00%
+2025-03-22 00:51:44,328 - import_aviation_stack - INFO - 完成導入: 5/5 成功率: 100.00%
+2025-03-22 00:51:50,391 - import_aviation_stack - INFO - 獲取導入統計資訊...
+2025-03-22 00:51:50,448 - aviation_stack_importer - ERROR - 獲取統計資訊失敗: 'str' object has no attribute 'strftime'
+2025-03-22 00:51:50,450 - import_aviation_stack - ERROR - 無法獲取統計資訊
+2025-03-22 00:52:13,227 - import_aviation_stack - INFO - 獲取導入統計資訊...
+2025-03-22 00:52:13,293 - import_aviation_stack - INFO - 資料庫中共有 235 個航班
+2025-03-22 00:52:13,294 - import_aviation_stack - INFO - 前5個最多航班的日期:
+2025-03-22 00:52:13,295 - import_aviation_stack - INFO -   2025-03-19: 77個航班
+2025-03-22 00:52:13,295 - import_aviation_stack - INFO -   2025-03-21: 52個航班
+2025-03-22 00:52:13,296 - import_aviation_stack - INFO -   2025-03-22: 22個航班
+2025-03-22 00:52:13,297 - import_aviation_stack - INFO -   2025-03-28: 14個航班
+2025-03-22 00:52:13,297 - import_aviation_stack - INFO -   2025-03-27: 14個航班
+2025-03-22 00:52:13,298 - import_aviation_stack - INFO - 前5個最多航班的航空公司:
+2025-03-22 00:52:13,299 - import_aviation_stack - INFO -   DA: 153個航班
+2025-03-22 00:52:13,300 - import_aviation_stack - INFO -   B7: 50個航班
+2025-03-22 00:52:13,303 - import_aviation_stack - INFO -   AE: 28個航班
+2025-03-22 00:52:13,305 - import_aviation_stack - INFO -   JX: 2個航班
+2025-03-22 00:52:13,306 - import_aviation_stack - INFO -   BR: 1個航班
+2025-03-22 00:52:13,307 - import_aviation_stack - INFO - 前5個最熱門航線:
+2025-03-22 00:52:13,307 - import_aviation_stack - INFO -   TTT-KYD: 14個航班
+2025-03-22 00:52:13,308 - import_aviation_stack - INFO -   TSA-MZG: 14個航班
+2025-03-22 00:52:13,308 - import_aviation_stack - INFO -   KNH-TSA: 14個航班
+2025-03-22 00:52:13,309 - import_aviation_stack - INFO -   KYD-TTT: 14個航班
+2025-03-22 00:52:13,309 - import_aviation_stack - INFO -   KNH-KHH: 13個航班
+2025-03-22 00:52:21,128 - import_aviation_stack - INFO - 開始導入 2025-03-23 的航班數據...
+2025-03-22 00:52:21,129 - aviation_stack_api - INFO - 批量獲取航班信息 - 日期: 2025-03-23, 最大API調用: 0, 使用緩存: True, 使用模擬: True
+2025-03-22 00:52:21,129 - aviation_stack_api - WARNING - 已達最大API調用次數(0)，停止查詢
+2025-03-22 00:52:21,130 - aviation_stack_api - INFO - 使用模擬航班數據
+2025-03-22 00:52:21,132 - aviation_stack_api - INFO - 總共獲取了 33 個航班資訊，API調用次數：0
+2025-03-22 00:52:21,134 - aviation_stack_importer - INFO - 開始批量導入 10 個航班...
+2025-03-22 00:52:22,873 - aviation_stack_importer - INFO - 進度: 10/10 (10 成功)
+2025-03-22 00:52:23,170 - aviation_stack_importer - INFO - 導入完成: 10/10 成功率: 100.00%
+2025-03-22 00:52:23,171 - import_aviation_stack - INFO - 完成導入: 10/10 成功率: 100.00%
+2025-03-22 00:52:29,184 - import_aviation_stack - INFO - 獲取導入統計資訊...
+2025-03-22 00:52:29,280 - import_aviation_stack - INFO - 資料庫中共有 245 個航班
+2025-03-22 00:52:29,281 - import_aviation_stack - INFO - 前5個最多航班的日期:
+2025-03-22 00:52:29,281 - import_aviation_stack - INFO -   2025-03-19: 77個航班
+2025-03-22 00:52:29,282 - import_aviation_stack - INFO -   2025-03-21: 52個航班
+2025-03-22 00:52:29,282 - import_aviation_stack - INFO -   2025-03-23: 24個航班
+2025-03-22 00:52:29,283 - import_aviation_stack - INFO -   2025-03-22: 22個航班
+2025-03-22 00:52:29,284 - import_aviation_stack - INFO -   2025-03-28: 14個航班
+2025-03-22 00:52:29,284 - import_aviation_stack - INFO - 前5個最多航班的航空公司:
+2025-03-22 00:52:29,285 - import_aviation_stack - INFO -   DA: 153個航班
+2025-03-22 00:52:29,285 - import_aviation_stack - INFO -   B7: 51個航班
+2025-03-22 00:52:29,285 - import_aviation_stack - INFO -   AE: 30個航班
+2025-03-22 00:52:29,286 - import_aviation_stack - INFO -   CI: 5個航班
+2025-03-22 00:52:29,286 - import_aviation_stack - INFO -   BR: 3個航班
+2025-03-22 00:52:29,286 - import_aviation_stack - INFO - 前5個最熱門航線:
+2025-03-22 00:52:29,287 - import_aviation_stack - INFO -   TTT-KYD: 14個航班
+2025-03-22 00:52:29,287 - import_aviation_stack - INFO -   TSA-MZG: 14個航班
+2025-03-22 00:52:29,287 - import_aviation_stack - INFO -   KNH-TSA: 14個航班
+2025-03-22 00:52:29,287 - import_aviation_stack - INFO -   KYD-TTT: 14個航班
+2025-03-22 00:52:29,288 - import_aviation_stack - INFO -   KNH-KHH: 13個航班
+2025-03-22 07:35:10,203 - test_aviation_stack - INFO - 開始 AviationStack API 替代方案測試
+2025-03-22 07:35:10,206 - test_aviation_stack - INFO - 注意: 跳過實際API調用，僅測試緩存和模擬數據功能
+2025-03-22 07:35:10,207 - test_aviation_stack - INFO - Python版本: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-22 07:35:10,208 - test_aviation_stack - INFO - 當前目錄: C:\Users\Aliothouo\OneDrive\文件\學校\AlphaVision\AerotwineX
+2025-03-22 07:35:10,209 - test_aviation_stack - INFO - 
+測試緩存功能:
+2025-03-22 07:35:10,211 - test_aviation_stack - INFO - 緩存目錄: C:\Users\Aliothouo\OneDrive\文件\學校\AlphaVision\AerotwineX\cache\aviation_stack
+2025-03-22 07:35:10,212 - test_aviation_stack - INFO - 測試參數的緩存鍵: 369e329e7efde8129295638ed46e0ee4
+2025-03-22 07:35:10,218 - aviation_stack_api - INFO - 已保存到緩存: airlines
+2025-03-22 07:35:10,219 - test_aviation_stack - INFO - 已保存測試數據到緩存
+2025-03-22 07:35:10,223 - test_aviation_stack - INFO - 從緩存獲取數據: China Airlines
+2025-03-22 07:35:10,224 - test_aviation_stack - INFO - 緩存目錄中有 1 個文件
+2025-03-22 07:35:10,225 - test_aviation_stack - INFO - 緩存功能測試結果: 成功
+2025-03-22 07:35:10,225 - test_aviation_stack - INFO - 緩存功能測試結果: 成功
+2025-03-22 07:35:10,226 - test_aviation_stack - INFO - 
+測試模擬數據功能:
+2025-03-22 07:35:10,227 - test_aviation_stack - INFO - 生成 2025-03-22 的模擬航班數據...
+2025-03-22 07:35:10,237 - test_aviation_stack - INFO - 生成了 24 個模擬航班
+2025-03-22 07:35:10,243 - test_aviation_stack - INFO - 模擬航班示例已保存到 logs/mock_flights_sample.json
+2025-03-22 07:35:10,244 - test_aviation_stack - INFO - 模擬航班樣本屬性: dict_keys(['flight_number', 'scheduled_departure', 'airline_id', 'departure_airport_code', 'arrival_airport_code', 'scheduled_arrival', 'flight_status', 'aircraft_type', 'price', 'booking_link', 'scrape_date'])
+2025-03-22 07:35:10,245 - test_aviation_stack - INFO - 模擬航班範例: N/ACI110 N/A -> N/A
+2025-03-22 07:35:10,246 - test_aviation_stack - INFO - 模擬數據功能測試結果: 成功
+2025-03-22 07:35:10,247 - test_aviation_stack - INFO - 模擬數據功能測試結果: 成功
+2025-03-22 07:35:10,248 - test_aviation_stack - INFO - 
+測試使用模擬數據進行批量導入:
+2025-03-22 07:35:10,249 - test_aviation_stack - INFO - 使用模擬數據導入 2025-03-22 的航班...
+2025-03-22 07:35:10,251 - aviation_stack_api - INFO - 批量獲取航班信息 - 日期: 2025-03-22, 最大API調用: 0, 使用緩存: False, 使用模擬: True
+2025-03-22 07:35:10,252 - aviation_stack_api - WARNING - 已達最大API調用次數(0)，停止查詢
+2025-03-22 07:35:10,253 - aviation_stack_api - INFO - 使用模擬航班數據
+2025-03-22 07:35:10,255 - aviation_stack_api - INFO - 總共獲取了 26 個航班資訊，API調用次數：0
+2025-03-22 07:35:10,255 - aviation_stack_importer - INFO - 開始批量導入 10 個航班...
+2025-03-22 07:35:12,449 - aviation_stack_importer - INFO - 進度: 10/10 (10 成功)
+2025-03-22 07:35:12,750 - aviation_stack_importer - INFO - 導入完成: 10/10 成功率: 100.00%
+2025-03-22 07:35:12,751 - test_aviation_stack - INFO - 導入結果: 10/10 成功率: 100.00%
+2025-03-22 07:35:12,752 - test_aviation_stack - INFO - 模擬數據批量導入測試結果: 成功
+2025-03-22 07:35:12,754 - test_aviation_stack - INFO - 模擬數據批量導入測試結果: 成功
+2025-03-22 07:35:12,754 - test_aviation_stack - INFO - 所有替代方案測試成功
+2025-03-22 07:35:12,755 - test_aviation_stack - INFO - 測試完成
+2025-03-22 07:35:33,847 - import_aviation_stack - INFO - 開始導入 2023-04-15 的航班數據...
+2025-03-22 07:35:33,848 - aviation_stack_api - INFO - 批量獲取航班信息 - 日期: 2023-04-15, 最大API調用: 10, 使用緩存: True, 使用模擬: True
+2025-03-22 07:35:33,848 - aviation_stack_api - INFO - 查詢航空公司航班，剩餘API調用次數: 10
+2025-03-22 07:35:33,848 - aviation_stack_api - INFO - 查詢航空公司 CI 的航班...
+2025-03-22 07:35:33,849 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'airline_iata': 'CI', 'flight_date': '2023-04-15', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 07:35:35,029 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 07:35:35,030 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 07:35:35,031 - aviation_stack_api - WARNING - 達到API速率限制，等待4秒後重試
+2025-03-22 07:35:39,840 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 07:35:39,841 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 07:35:39,842 - aviation_stack_api - WARNING - 達到API速率限制，等待8秒後重試
+2025-03-22 07:35:48,691 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 07:35:48,705 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 07:35:48,707 - aviation_stack_api - WARNING - 達到API速率限制，等待12秒後重試
+2025-03-22 07:36:03,108 - aviation_stack_api - INFO - 查詢航空公司 BR 的航班...
+2025-03-22 07:36:03,127 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'airline_iata': 'BR', 'flight_date': '2023-04-15', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 07:36:03,903 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 07:36:03,904 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 07:36:03,905 - aviation_stack_api - WARNING - 達到API速率限制，等待4秒後重試
+2025-03-22 07:36:08,718 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 07:36:08,721 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 07:36:08,723 - aviation_stack_api - WARNING - 達到API速率限制，等待8秒後重試
+2025-03-22 07:36:17,426 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 07:36:17,428 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 07:36:17,429 - aviation_stack_api - WARNING - 達到API速率限制，等待12秒後重試
+2025-03-22 07:36:30,938 - aviation_stack_api - INFO - 查詢航空公司 AE 的航班...
+2025-03-22 07:36:30,943 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/flights 參數: {'airline_iata': 'AE', 'flight_date': '2023-04-15', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 07:36:31,756 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 07:36:31,758 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 07:36:31,760 - aviation_stack_api - WARNING - 達到API速率限制，等待4秒後重試

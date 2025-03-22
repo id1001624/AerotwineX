@@ -1,0 +1,49 @@
+---
+description: 專案結構
+globs: 
+alwaysApply: false
+---
+# 專案結構
+
+AerotwineX
+|-.project_rules/                  # 存放專案規則文件
+|  |- project_rules.mdc
+|-.project_notes/                  # 存放專案筆記
+|  |- project_timeline.md              # 預計timeline
+|  |- project_notes.md 
+|- api/                            # 後端 API 代碼
+|  |- controllers/                 # 處理 HTTP 請求
+|
+|  |- services/                    # 業務邏輯層
+|
+|  |- models/                      # 資料模型
+|  
+|  |- app.py                       # Flask 應用入口(後台)
+|- config/                         # 配置檔案
+|  |- prodConfig.json              # 正式環境配置
+|  |- stagingConfig.json           # 測試環境配置
+|- database/                       # 資料庫相關
+|  |- mssqlConnector.py            # MSSQL 資料庫連接
+|- frontend/                       # 前端代碼 (Vue.js)
+|  |- public/                      # 公開資源
+|  |  |- index.html                # 前端入口 HTML
+|  |- src/                         # 前端原始碼
+|  |  |- assets/                   # 靜態資源
+|  |  |  |- styles.css             # 全局樣式
+|  |  |- components/               # Vue 組件
+|  |  | 
+|  |  |- App.vue                   # Vue 根組件
+|  |  |- main.js                   # Vue 入口檔案
+|- logs/                           # 日誌文件
+|  |- api.log                      # API 日誌
+|  |- cron.log                     # 排程任務日誌
+|- tests/                          # 測試代碼
+|  |- 
+|- utils/                          # 工具函數
+|  |- helpers.py                   # 通用輔助函數
+|- dockerfile                      # Docker 設定檔案
+|- .gitignore                      # Git 忽略清單
+|- requirements.txt                # Python 依賴清單
+|- package.json                    # Node.js 依賴清單
+|- README.md                       # 專案說明文件
+

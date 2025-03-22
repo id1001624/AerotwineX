@@ -1,0 +1,122 @@
+[
+    {
+        "flight_number": "7301",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7501",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7503",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7505",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7303",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7507",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7509",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7309",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7511",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7311",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7302",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7502",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7504",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7506",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7304",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7508",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7510",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7310",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7512",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    },
+    {
+        "flight_number": "7312",
+        "flight_status": "cancelled",
+        "actual_departure": null,
+        "actual_arrival": null
+    }
+]

@@ -1,0 +1,450 @@
+---
+description: AerotwineX 專案規則
+globs: 
+alwaysApply: false
+---
+# AerotwineX 專案規則
+
+## 專案概述
+
+### 設計流程
+- 從核心功能「查詢飛機航班」的資料庫物件（DBO）和 UML 圖開始
+- 先設計其他功能的 DBO 和 UML
+- 所有功能設計完成後(八大核心功能的優先順序先以查詢飛機航班後以好做的優先)
+- 再進行前端、後端和其他方面的設計
+
+### 技術棧
+- 前端：HTML, JavaScript, CSS, Vue.js
+- 後端：Python, Flask
+- 資料庫：MSSQL
+- 雲端技術：Docker
+
+## 功能設計規則
+
+### 1. 查詢飛機航班
+
+#### DBO 設計
+- **Flights**: 存儲航班基本信息
+- **Airports**: 存儲機場信息
+- **Airlines**: 存儲航空公司信息
+- **Flight_Status**: 存儲航班狀態信息
+
+#### UML 圖
+- Flights 與 Airports 通過起飛機場和到達機場建立多對一關係
+- Flights 與 Airlines 通過航空公司編號建立多對一關係
+- Flights 與 Flight_Status 通過航班編號建立一對一關係
+
+#### 表格結構
+- **Flights**
+  - flight_id (PK): VARCHAR(20) - 航班編號
+  - airline_id (FK): INT - 航空公司ID
+  - departure_airport_id (FK): VARCHAR(5) - 起飛機場代碼
+  - arrival_airport_id (FK): VARCHAR(5) - 到達機場代碼
+  - scheduled_departure: DATETIME - 預定起飛時間
+  - scheduled_arrival: DATETIME - 預定到達時間
+  - aircraft_type: VARCHAR(50) - 飛機類型
+  - price_economy: DECIMAL(10,2) - 經濟艙價格
+  - price_business: DECIMAL(10,2) - 商務艙價格
+  - price_first: DECIMAL(10,2) - 頭等艙價格
+  - created_at: DATETIME - 創建時間
+  - updated_at: DATETIME - 更新時間
+
+- **Airports**(已完成)
+  - Airport_id
+  - AirportName
+  - AirportNameZh
+  - IATA_code
+  - ICAO_code
+  - Facility_type
+  - Location
+  - Timezone
+  - Latitude
+  - Longitude
+  - Field_elevation
+  - AirportWeb
+  - Wikipedia_page
+  - Key_words
+  - created_at
+  - updated_at
+  - is_domestic
+
+- **Airlines**(已完成)
+  - Airline_id
+  - AirlinName
+  - AirlinNameZh
+  - IATA_code
+  - ICAO_code
+  - Website
+  - ContactInfo
+  - Country
+  - Created_at
+  - Updated_at
+  - Callsign
+
+- **Flight_Status**
+  - status_id (PK): INT - 狀態ID
+  - flight_id (FK): VARCHAR(20) - 航班編號
+  - actual_departure: DATETIME - 實際起飛時間
+  - actual_arrival: DATETIME - 實際到達時間
+  - status: VARCHAR(20) - 狀態(準時/延誤/取消/已起飛/已到達)
+  - delay_minutes: INT - 延誤分鐘數
+  - gate: VARCHAR(10) - 登機口
+  - terminal: VARCHAR(10) - 航廈
+  - baggage_claim: VARCHAR(20) - 行李提取處
+
+- 航班座位表
+
+- 用戶偏好表(包含評論評分)
+
+### 2. 購買機票功能
+
+#### DBO 設計
+- **Tickets**: 存儲機票信息
+- **Bookings**: 存儲訂單信息
+
+#### UML 圖
+- Tickets 與 Flights 通過航班編號建立多對一關係
+- Tickets 與 Users 通過用戶ID建立多對一關係
+- Tickets 與 Bookings 通過訂單ID建立多對一關係
+
+#### 表格結構
+- **Tickets**
+  - ticket_id (PK): VARCHAR(20) - 機票編號
+  - booking_id (FK): VARCHAR(20) - 訂單ID
+  - flight_id (FK): VARCHAR(20) - 航班編號
+  - user_id (FK): INT - 用戶ID
+  - seat_number: VARCHAR(10) - 座位號
+  - cabin_class: VARCHAR(20) - 艙位等級(經濟艙/商務艙/頭等艙)
+  - price: DECIMAL(10,2) - 價格
+  - insurance: BOOLEAN - 是否購買保險
+  - status: VARCHAR(20) - 狀態(已預訂/已付款/已取消/已退款)
+  - created_at: DATETIME - 創建時間
+  - updated_at: DATETIME - 更新時間
+
+- **Bookings**
+  - booking_id (PK): VARCHAR(20) - 訂單ID
+  - user_id (FK): INT - 用戶ID
+  - total_amount: DECIMAL(10,2) - 總金額
+  - booking_date: DATETIME - 預訂日期
+  - payment_method: VARCHAR(20) - 支付方式
+  - payment_status: VARCHAR(20) - 支付狀態
+  - contact_email: VARCHAR(100) - 聯繫郵箱
+  - contact_phone: VARCHAR(20) - 聯繫電話
+
+### 3. 同步 LINE 機器人
+
+#### DBO 設計
+- **Linebot_Interactions**: 存儲LINE機器人交互記錄
+- **Linebot_Users**: 存儲LINE用戶信息
+- **Linebot_Templates**: 存儲回复模板
+
+#### UML 圖
+- Linebot_Interactions 與 Users 通過用戶ID建立多對一關係
+- Linebot_Interactions 與 Flights 通過航班編號建立多對一關係
+- Linebot_Users 與 Users 通過用戶ID建立一對一關係
+
+#### 表格結構
+- **Linebot_Interactions**
+  - interaction_id (PK): INT - 交互ID
+  - line_user_id (FK): VARCHAR(50) - LINE用戶ID
+  - user_id (FK): INT - 系統用戶ID
+  - message_type: VARCHAR(20) - 消息類型(文本/圖片/位置等)
+  - message_content: TEXT - 消息內容
+  - flight_id (FK): VARCHAR(20) - 相關航班編號(可為空)
+  - interaction_time: DATETIME - 交互時間
+  - response_content: TEXT - 回复內容
+
+- **Linebot_Users**
+  - line_user_id (PK): VARCHAR(50) - LINE用戶ID
+  - user_id (FK): INT - 系統用戶ID
+  - display_name: VARCHAR(100) - 顯示名稱
+  - profile_image: VARCHAR(255) - 頭像URL
+  - language: VARCHAR(10) - 語言偏好
+  - last_interaction: DATETIME - 最後交互時間
+  - notification_enabled: BOOLEAN - 是否啟用通知
+
+- **Linebot_Templates**
+  - template_id (PK): INT - 模板ID
+  - template_name: VARCHAR(50) - 模板名稱
+  - template_type: VARCHAR(20) - 模板類型(文本/按鈕/輪播等)
+  - template_content: TEXT - 模板內容(JSON格式)
+  - template_usage: VARCHAR(50) - 使用場景
+
+### 4. 社群平台
+
+#### DBO 設計
+- **Community_Posts**: 存儲社群帖子
+- **Ratings**: 存儲評分信息
+- **Comments**: 存儲評論信息
+
+#### UML 圖
+- Community_Posts 與 Users 通過用戶ID建立多對一關係
+- Community_Posts 與 Flights 通過航班編號建立多對一關係
+- Ratings 與 Users 通過用戶ID建立多對一關係
+- Ratings 與 Airlines/Flights/Airports 通過ID建立多對一關係
+- Comments 與 Community_Posts 通過帖子ID建立多對一關係
+
+#### 表格結構
+- **Community_Posts**
+  - post_id (PK): INT - 帖子ID
+  - user_id (FK): INT - 用戶ID
+  - title: VARCHAR(100) - 標題
+  - content: TEXT - 內容
+  - post_type: VARCHAR(20) - 帖子類型(問答/分享/建議等)
+  - flight_id (FK): VARCHAR(20) - 相關航班編號(可為空)
+  - airline_id (FK): INT - 相關航空公司ID(可為空)
+  - created_at: DATETIME - 創建時間
+  - updated_at: DATETIME - 更新時間
+  - views: INT - 瀏覽量
+  - likes: INT - 點贊數
+  - status: VARCHAR(20) - 狀態(發布/審核中/已刪除)
+
+- **Ratings**
+  - rating_id (PK): INT - 評分ID
+  - user_id (FK): INT - 用戶ID
+  - rating_type: VARCHAR(20) - 評分類型(航空公司/航班/機場)
+  - target_id: VARCHAR(20) - 評分目標ID
+  - score: DECIMAL(2,1) - 評分(0-5分)
+  - comment: TEXT - 評論內容
+  - created_at: DATETIME - 創建時間
+
+- **Comments**
+  - comment_id (PK): INT - 評論ID
+  - post_id (FK): INT - 帖子ID
+  - user_id (FK): INT - 用戶ID
+  - content: TEXT - 內容
+  - created_at: DATETIME - 創建時間
+  - updated_at: DATETIME - 更新時間
+  - likes: INT - 點贊數
+  - parent_comment_id (FK): INT - 父評論ID(用於回复評論)
+
+### 5. 預測航班起降狀態
+
+#### DBO 設計
+- **Predictions**: 存儲航班預測結果
+- **Weather_Data**: 存儲天氣數據
+
+#### UML 圖
+- Predictions 與 Flights 通過航班編號建立多對一關係
+- Predictions 與 Weather_Data 通過天氣數據ID建立多對一關係
+
+#### 表格結構
+- **Predictions**
+  - prediction_id (PK): INT - 預測ID
+  - flight_id (FK): VARCHAR(20) - 航班編號
+  - predicted_status: VARCHAR(20) - 預測狀態(準時/延誤/取消)
+  - delay_probability: DECIMAL(5,2) - 延誤概率
+  - cancellation_probability: DECIMAL(5,2) - 取消概率
+  - predicted_delay_minutes: INT - 預測延誤分鐘數
+  - prediction_time: DATETIME - 預測時間
+  - prediction_accuracy: DECIMAL(5,2) - 預測準確度
+  - weather_data_id (FK): INT - 天氣數據ID
+
+- **Weather_Data**
+  - weather_id (PK): INT - 天氣ID
+  - airport_code (FK): VARCHAR(5) - 機場代碼
+  - temperature: DECIMAL(5,2) - 溫度
+  - humidity: DECIMAL(5,2) - 濕度
+  - wind_speed: DECIMAL(5,2) - 風速
+  - wind_direction: VARCHAR(10) - 風向
+  - precipitation: DECIMAL(5,2) - 降水量
+  - visibility: DECIMAL(5,2) - 能見度
+  - pressure: DECIMAL(7,2) - 氣壓
+  - weather_condition: VARCHAR(50) - 天氣狀況
+  - collection_time: DATETIME - 收集時間
+
+### 6. 導覽地圖
+
+#### DBO 設計
+- **Airport_Maps**: 存儲機場地圖信息
+- **Map_Locations**: 存儲地圖位置點信息
+
+#### UML 圖
+- Airport_Maps 與 Airports 通過機場代碼建立一對一關係
+- Map_Locations 與 Airport_Maps 通過地圖ID建立多對一關係
+
+#### 表格結構
+- **Airport_Maps**
+  - map_id (PK): INT - 地圖ID
+  - airport_code (FK): VARCHAR(5) - 機場代碼
+  - map_name: VARCHAR(100) - 地圖名稱
+  - floor: VARCHAR(10) - 樓層
+  - map_image_url: VARCHAR(255) - 地圖圖片URL
+  - map_data: TEXT - 地圖數據(JSON格式)
+  - last_updated: DATETIME - 最後更新時間
+
+- **Map_Locations**
+  - location_id (PK): INT - 位置ID
+  - map_id (FK): INT - 地圖ID
+  - location_type: VARCHAR(30) - 位置類型(登機口/餐廳/洗手間等)
+  - location_name: VARCHAR(100) - 位置名稱
+  - x_coordinate: DECIMAL(10,2) - X坐標
+  - y_coordinate: DECIMAL(10,2) - Y坐標
+  - description: TEXT - 描述
+  - icon_url: VARCHAR(255) - 圖標URL
+
+### 7. 會員表
+
+#### DBO 設計
+- **Users**: 存儲用戶基本信息
+- **Memberships**: 存儲會員等級信息
+- **Mileage**: 存儲哩程信息
+
+#### UML 圖
+- Users 與 Memberships 通過會員等級ID建立多對一關係
+- Mileage 與 Users 通過用戶ID建立多對一關係
+- Mileage 與 Flights 通過航班編號建立多對一關係
+
+#### 表格結構
+- **Users**
+  - user_id (PK): INT - 用戶ID
+  - username: VARCHAR(50) - 用戶名
+  - password_hash: VARCHAR(255) - 密碼哈希
+  - email: VARCHAR(100) - 電子郵件
+  - phone: VARCHAR(20) - 電話號碼
+  - first_name: VARCHAR(50) - 名
+  - last_name: VARCHAR(50) - 姓
+  - birth_date: DATE - 出生日期
+  - gender: VARCHAR(10) - 性別
+  - nationality: VARCHAR(50) - 國籍
+  - passport_number: VARCHAR(20) - 護照號碼
+  - membership_id (FK): INT - 會員等級ID
+  - total_mileage: INT - 總哩程數
+  - registration_date: DATETIME - 註冊日期
+  - last_login: DATETIME - 最後登錄時間
+  - account_status: VARCHAR(20) - 帳號狀態(激活/禁用)
+
+- **Memberships**
+  - membership_id (PK): INT - 會員等級ID
+  - level_name: VARCHAR(50) - 等級名稱
+  - min_mileage: INT - 最低哩程數要求
+  - max_mileage: INT - 最高哩程數
+  - benefits: TEXT - 權益說明
+  - mileage_multiplier: DECIMAL(3,2) - 哩程倍數
+  - priority_boarding: BOOLEAN - 優先登機
+  - lounge_access: BOOLEAN - 貴賓室使用權
+  - extra_baggage: INT - 額外行李額度
+
+- **Mileage**
+  - mileage_id (PK): INT - 哩程ID
+  - user_id (FK): INT - 用戶ID
+  - flight_id (FK): VARCHAR(20) - 航班編號
+  - booking_id (FK): VARCHAR(20) - 訂單ID
+  - mileage_amount: INT - 哩程數量
+  - mileage_type: VARCHAR(20) - 哩程類型(獲得/使用)
+  - description: VARCHAR(100) - 描述
+  - transaction_date: DATETIME - 交易日期
+  - expiry_date: DATE - 到期日期
+  - status: VARCHAR(20) - 狀態(有效/已使用/已過期)
+
+
+
+### 後台系統設計
+
+**用戶管理**
+
+#### DBO 設計
+- **Admins**: 存儲後台用戶信息
+- **Roles**: 存儲角色信息
+- **Permissions**: 存儲權限信息
+
+#### UML 圖
+- Admins 與 Roles 通過角色ID建立多對一關係
+- Roles 與 Permissions 通過中間表建立多對多關係
+
+#### 表格結構
+- **Admins**
+  - admin_id (PK): INT - 管理員ID
+  - username: VARCHAR(50) - 用戶名
+  - password_hash: VARCHAR(255) - 密碼哈希
+  - email: VARCHAR(100) - 電子郵件
+  - name: VARCHAR(100) - 姓名
+  - role_id (FK): INT - 角色ID
+  - account_status: VARCHAR(20) - 帳號狀態
+  - created_at: DATETIME - 創建時間
+
+- **Roles**
+  - role_id (PK): INT - 角色ID
+  - role_name: VARCHAR(50) - 角色名稱
+  - description: VARCHAR(255) - 描述
+
+- **Permissions**
+  - permission_id (PK): INT - 權限ID
+  - permission_name: VARCHAR(50) - 權限名稱
+  - permission_code: VARCHAR(50) - 權限代碼
+
+**活動管理**
+
+#### DBO 設計
+- **Activities**: 存儲活動基本信息
+- **Activity_Participants**: 存儲活動參與者信息
+
+#### UML 圖
+- Activities 與 Activity_Participants 通過活動ID建立一對多關係
+- Activity_Participants 與 Users 通過用戶ID建立多對一關係
+
+#### 表格結構
+- **Activities**
+  - activity_id (PK): INT - 活動ID
+  - title: VARCHAR(100) - 活動標題
+  - description: TEXT - 活動描述
+  - start_date: DATETIME - 開始日期
+  - end_date: DATETIME - 結束日期
+  - location: VARCHAR(255) - 活動地點
+  - max_participants: INT - 最大參與人數
+  - status: VARCHAR(20) - 活動狀態(報名中/進行中/已結束)
+  - image_url: VARCHAR(255) - 主圖URL
+  - created_at: DATETIME - 創建時間
+  - updated_at: DATETIME - 更新時間
+
+- **Activity_Participants**
+  - participant_id (PK): INT - 參與ID
+  - activity_id (FK): INT - 活動ID
+  - user_id (FK): INT - 用戶ID
+  - registration_date: DATETIME - 報名日期
+  - attendance_status: VARCHAR(20) - 出席狀態
+
+**保險合作公司**
+
+#### DBO 設計
+- **Insurance_Companies**: 存儲保險公司信息
+- **Insurance_Plans**: 存儲保險計劃
+- **User_Insurance**: 存儲用戶購買的保險
+
+#### UML 圖
+- Insurance_Companies 與 Insurance_Plans 通過公司ID建立一對多關係
+- Insurance_Plans 與 User_Insurance 通過計劃ID建立一對多關係
+- User_Insurance 與 Users 通過用戶ID建立多對一關係
+- User_Insurance 與 Tickets 通過機票ID建立多對一關係
+
+#### 表格結構
+- **Insurance_Companies**
+  - company_id (PK): INT - 公司ID
+  - company_name: VARCHAR(100) - 公司名稱
+  - logo_url: VARCHAR(255) - 標誌URL
+  - contact_email: VARCHAR(100) - 聯繫郵箱
+  - website: VARCHAR(255) - 官方網站
+  - status: VARCHAR(20) - 狀態(活躍/暫停)
+  - created_at: DATETIME - 創建時間
+
+- **Insurance_Plans**
+  - plan_id (PK): INT - 計劃ID
+  - company_id (FK): INT - 公司ID
+  - plan_name: VARCHAR(100) - 計劃名稱
+  - description: TEXT - 計劃描述
+  - price: DECIMAL(10,2) - 價格
+  - coverage_summary: TEXT - 保障摘要
+  - is_featured: BOOLEAN - 是否為推薦計劃
+  - updated_at: DATETIME - 更新時間
+
+- **User_Insurance**
+  - user_insurance_id (PK): INT - 用戶保險ID
+  - user_id (FK): INT - 用戶ID
+  - ticket_id (FK): VARCHAR(20) - 機票ID
+  - plan_id (FK): INT - 保險計劃ID
+  - purchase_date: DATETIME - 購買日期
+  - policy_number: VARCHAR(50) - 保單號碼
+  - status: VARCHAR(20) - 狀態(有效/已過期/已取消)
+
+
+  

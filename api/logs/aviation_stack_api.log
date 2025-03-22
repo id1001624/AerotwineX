@@ -1,0 +1,28 @@
+2025-03-22 07:49:37,647 - aviation_stack_api - INFO - 發送請求到 http://api.aviationstack.com/v1/airports 參數: {'iata': 'TPE', 'access_key': 'ccde4f4232ff0fe39abf0da9422c1a99'}
+2025-03-22 07:49:38,508 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 07:49:38,508 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 07:49:38,509 - aviation_stack_api - WARNING - 達到API速率限制，等待4秒後重試
+2025-03-22 07:49:43,117 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 07:49:43,118 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 07:49:43,119 - aviation_stack_api - WARNING - 達到API速率限制，等待8秒後重試
+2025-03-22 07:49:51,637 - aviation_stack_api - ERROR - API請求失敗: 429 Too Many Requests
+2025-03-22 07:49:51,638 - aviation_stack_api - ERROR - 回應內容: {
+  "error": {
+    "code": "usage_limit_reached",
+    "message": "Your monthly usage limit has been reached. Please upgrade your Subscription Plan."
+  }
+}
+
+2025-03-22 07:49:51,638 - aviation_stack_api - WARNING - 達到API速率限制，等待12秒後重試

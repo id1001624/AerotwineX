@@ -1,0 +1,8 @@
+2025-03-22 11:23:11,960 - SetupAirports - INFO - 正在连接数据库...
+2025-03-22 11:23:12,066 - SetupAirports - INFO - 数据库连接成功！
+2025-03-22 11:23:12,067 - SetupAirports - INFO - 德安航空使用的机场代码: CMJ, GNI, HUN, KHH, KNH, KYD, LZN, MFK, MZG, RMQ, TPE, TSA, TTT, WOT
+2025-03-22 11:23:12,075 - SetupAirports - INFO - 数据库中已有 133 个机场记录
+2025-03-22 11:23:12,076 - SetupAirports - INFO - 所有德安航空使用的机场代码已存在于数据库中
+2025-03-22 11:23:12,077 - SetupAirports - INFO - 正在连接数据库...
+2025-03-22 11:23:12,078 - SetupAirports - INFO - 数据库连接成功！
+2025-03-22 11:23:12,084 - SetupAirports - INFO - 德安航空(DA)已存在于数据库中
